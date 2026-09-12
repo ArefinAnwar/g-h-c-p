@@ -1,10 +1,9 @@
 const GOLD = /*GOLD*/;
 
 function sheet_() {
-  const ss = SpreadsheetApp.getActive();
-  let sh = ss.getSheetByName("answers");
-  if (!sh) {
-    sh = ss.insertSheet("answers");
+  var ss = SpreadsheetApp.getActive();
+  var sh = ss.getSheets()[0];
+  if (sh.getLastRow() === 0) {
     sh.appendRow([
       "ts", "who", "graph_id", "gitqa_id", "choice_nodes", "readable", "correct", "ms",
     ]);
@@ -12,8 +11,14 @@ function sheet_() {
   return sh;
 }
 
+function parseNodes_(s) {
+  if (Object.prototype.toString.call(s) === "[object Array]") return s.map(Number);
+  if (!s) return [];
+  return String(s).split(/[-,]/).map(Number).filter(function (x) { return !isNaN(x); });
+}
+
 function norm_(nodes) {
-  var n = nodes.map(Number);
+  var n = parseNodes_(nodes);
   if (n.length >= 2 && n[0] === n[n.length - 1]) n = n.slice(0, -1);
   if (n.length < 3) return "";
   function rot(seq) {
@@ -47,7 +52,37 @@ function jsonp_(e, obj) {
   return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
 }
 
+function writeRow_(row) {
+  var who = String(row.who || "").trim();
+  var gid = Number(row.graph_id);
+  var nodes = parseNodes_(row.nodes);
+  var gold = GOLD[String(gid)] || [];
+  var correct = norm_(nodes) === norm_(gold) ? 1 : 0;
+  sheet_().appendRow([
+    new Date().toISOString(),
+    who,
+    gid,
+    row.gitqa_id || "",
+    nodes.join("-"),
+    row.readable || "",
+    correct,
+    row.ms || "",
+  ]);
+  return { ok: true, correct: correct, done: doneFor_(who) };
+}
+
 function doGet(e) {
+  e = e || { parameter: {} };
+  if (String(e.parameter.write || "") === "1") {
+    return jsonp_(e, writeRow_({
+      who: e.parameter.who,
+      graph_id: e.parameter.graph_id,
+      gitqa_id: e.parameter.gitqa_id,
+      nodes: e.parameter.nodes,
+      readable: e.parameter.readable,
+      ms: e.parameter.ms,
+    }));
+  }
   var who = (e.parameter.who || "").trim();
   if (!who) return jsonp_(e, { ok: false, error: "missing who" });
   var done = doneFor_(who);
@@ -56,23 +91,5 @@ function doGet(e) {
 
 function doPost(e) {
   var raw = (e.postData && e.postData.contents) || "{}";
-  var row = JSON.parse(raw);
-  var who = String(row.who || "").trim();
-  var gid = Number(row.graph_id);
-  var nodes = row.nodes || [];
-  var gold = GOLD[String(gid)] || [];
-  var correct = norm_(nodes) === norm_(gold) ? 1 : 0;
-  sheet_().appendRow([
-    new Date().toISOString(),
-    who,
-    gid,
-    row.gitqa_id || "",
-    (nodes || []).join("-"),
-    row.readable || "",
-    correct,
-    row.ms || "",
-  ]);
-  return ContentService.createTextOutput(
-    JSON.stringify({ ok: true, correct: correct, done: doneFor_(who) })
-  ).setMimeType(ContentService.MimeType.JSON);
+  return jsonp_(e, writeRow_(JSON.parse(raw)));
 }

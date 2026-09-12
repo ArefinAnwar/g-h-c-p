@@ -17,9 +17,9 @@ Four people. Each gets a link. One drawing, four loops, pick the one you can tra
 
 Until step 7 is done, answers still save in the reviewer’s browser. After step 7 they also land in the Sheet.
 
-### 2. GitHub Pages
-Repo **Settings → Pages → Deploy from a branch → `main` / `/ (root)`**.  
-Site: `https://<you>.github.io/gitqa-human-cycle-pilot/`
+### 2. GitHub Pages (required for the public links)
+Repo **Settings → Pages → Deploy from a branch → `main` / `/ (root)`** → Save.  
+Until that is on, the github.io URL is 404. You can still test by opening `index.html` from this folder.
 
 ### 3. Send these links
 Replace the host with your Pages URL:

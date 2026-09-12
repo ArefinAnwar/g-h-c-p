@@ -68,12 +68,17 @@
   async function saveRow(rec) {
     localPush(who, rec);
     if (!SCRIPT) return;
+    const q = new URLSearchParams({
+      write: "1",
+      who: rec.who,
+      graph_id: String(rec.graph_id),
+      gitqa_id: rec.gitqa_id || "",
+      nodes: (rec.nodes || []).join("-"),
+      readable: rec.readable || "",
+      ms: String(rec.ms || ""),
+    });
     try {
-      await fetch(SCRIPT, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify(rec),
-      });
+      await jsonp(SCRIPT + "?" + q.toString());
     } catch (e) {
       $("save-msg").textContent = "Saved on this device (sheet unreachable).";
     }
@@ -144,11 +149,11 @@
     maybeEnable();
   };
 
-  $("next").onclick = async () => {
+  $("next").onclick = () => {
     if (!pick || !readable) return;
     $("next").disabled = true;
     const it = itemsById[queue[ix]];
-    await saveRow({
+    saveRow({
       who: who,
       graph_id: it.graph_id,
       gitqa_id: it.gitqa_id,
