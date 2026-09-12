@@ -4,6 +4,7 @@
 
   const $ = (id) => document.getElementById(id);
   const gate = $("gate");
+  const howto = $("howto");
   const task = $("task");
   const done = $("done");
 
@@ -180,7 +181,7 @@
     ]);
     assign = asg;
     if (!assign[who]) {
-      $("gate-err").textContent = "Use r1, r2, r3, or r4.";
+      $("gate-err").textContent = "Use r1, r2, r3, r4, or r5.";
       $("gate-err").classList.remove("hidden");
       return;
     }
@@ -196,6 +197,11 @@
       $("done-msg").textContent = "Nothing left on this code. Thanks.";
       return;
     }
+    howto.classList.remove("hidden");
+  };
+
+  $("begin").onclick = () => {
+    howto.classList.add("hidden");
     task.classList.remove("hidden");
     showTask();
   };

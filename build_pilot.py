@@ -211,13 +211,10 @@ def main() -> None:
         print(f"g{gid:02d} gitqa={g['gitqa_id']} gold={fmt_cyc(gold_cyc)} kinds={[o['kind'] for o in opts]}")
 
     ids = [it["graph_id"] for it in items]
-    shared = ids[:20]
-    rest = ids[20:]
+    # Five disjoint sets: each graph is seen by exactly one reviewer.
     assign = {
-        "r1": {"shared": shared, "own": rest[0:13]},
-        "r2": {"shared": shared, "own": rest[13:26]},
-        "r3": {"shared": shared, "own": rest[26:38]},
-        "r4": {"shared": shared, "own": rest[38:50]},
+        f"r{i + 1}": {"shared": [], "own": ids[i * 14:(i + 1) * 14]}
+        for i in range(5)
     }
     (ROOT / "gold.json").write_text(json.dumps(gold_map, indent=2), encoding="utf-8")
     (ROOT / "assignments.json").write_text(json.dumps(assign, indent=2), encoding="utf-8")

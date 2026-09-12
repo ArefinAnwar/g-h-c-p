@@ -44,6 +44,14 @@ img.graph {
   border-radius: 8px;
 }
 .q { margin: 18px 0 8px; font-weight: 600; }
+svg.demo { width: 100%; height: auto; display: block; background: #fff; border-radius: 8px; }
+svg.demo .e { stroke: #a8a29c; stroke-width: 2; }
+svg.demo .bad { stroke: #c45c26; stroke-width: 2.5; stroke-dasharray: 7 6; }
+svg.demo .x { fill: #c45c26; font-size: 22px; font-weight: 700; }
+svg.demo .n circle { fill: #fff; stroke: #2b2a28; stroke-width: 2; }
+svg.demo .n text { fill: #2b2a28; font-size: 15px; font-weight: 600; }
+.ok { color: var(--accent); font-weight: 600; }
+.no { color: var(--accent-2); font-weight: 600; }
 .opts { display: grid; gap: 8px; }
 .opts button, .read button {
   text-align: left;

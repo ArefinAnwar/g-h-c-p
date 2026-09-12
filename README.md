@@ -1,6 +1,6 @@
 # Human cycle check (GITQA 70, pilot)
 
-Four people. Each gets a link. One drawing, two loops, pick the one you can trace.
+Five people. Each gets a link. One drawing, two loops, pick the one you can trace. A one-screen tutorial with a worked example shows first.
 
 ## What you do (once)
 
@@ -29,8 +29,9 @@ Replace the host with your Pages URL:
 - r2: `...?who=r2`
 - r3: `...?who=r3`
 - r4: `...?who=r4`
+- r5: `...?who=r5`
 
-Each person: 20 shared graphs (all four see these) plus their own slice (~12–13). About 32–33 graphs each.
+Each person: 14 graphs, no overlap between reviewers.
 
 ## Sheet columns
 `ts, who, graph_id, gitqa_id, choice_nodes, readable, correct, ms`

@@ -10,14 +10,48 @@
   <div class="wrap">
     <section id="gate" class="gate">
       <h1>Graph loop check</h1>
-      <p class="sub">You will see a drawing and two candidate loops. Pick the loop you can actually trace on the lines. About 30–35 drawings. You can stop and reopen this same link later.</p>
+      <p class="sub">You will see a drawing and two candidate loops. Pick the loop you can actually trace on the lines. 14 drawings. You can stop and reopen this same link later.</p>
       <p>Your code</p>
       <input id="who" placeholder="r1" maxlength="8" />
       <div class="row">
-        <span class="meta">Use the code from your email: r1, r2, r3, or r4.</span>
+        <span class="meta">Use the code from your email: r1, r2, r3, r4, or r5.</span>
         <button class="next" id="start" type="button">Start</button>
       </div>
       <p class="err hidden" id="gate-err"></p>
+    </section>
+
+    <section id="howto" class="hidden">
+      <h1>How to rate (one example)</h1>
+      <p class="sub">A <b>loop</b> is a closed walk: follow the lines from node to node and come back to where you started. The loop is written <b>without repeating the start at the end</b>: &ldquo;0 &ndash; 1 &ndash; 2 &ndash; 3&rdquo; means 0&rarr;1&rarr;2&rarr;3&rarr;back to 0.</p>
+      <div class="card">
+        <svg class="demo" viewBox="0 0 360 240" role="img" aria-label="loop example">
+          <defs>
+            <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#3d5a4c" stroke-width="1.6" />
+            </marker>
+          </defs>
+          <line x1="80" y1="50" x2="280" y2="50" class="e" />
+          <line x1="280" y1="50" x2="280" y2="180" class="e" />
+          <line x1="280" y1="180" x2="80" y2="180" class="e" />
+          <line x1="80" y1="180" x2="80" y2="50" class="e" />
+          <polyline points="80,50 280,50 280,180 80,180 80,50" fill="none" stroke="#3d5a4c" stroke-width="3" marker-mid="url(#ah)" />
+          <line x1="280" y1="50" x2="80" y2="180" class="bad" />
+          <text x="180" y="100" text-anchor="middle" class="x">&#10005;</text>
+          <g class="n">
+            <circle cx="80" cy="50" r="16" /><text x="80" y="56" text-anchor="middle">0</text>
+            <circle cx="280" cy="50" r="16" /><text x="280" y="56" text-anchor="middle">1</text>
+            <circle cx="280" cy="180" r="16" /><text x="280" y="186" text-anchor="middle">2</text>
+            <circle cx="80" cy="180" r="16" /><text x="80" y="186" text-anchor="middle">3</text>
+          </g>
+        </svg>
+        <p><b>A. 0 &ndash; 1 &ndash; 2 &ndash; 3</b> <span class="ok">&#10003; traceable</span>: every step follows a drawn line, and 3 connects back to 0.</p>
+        <p><b>B. 0 &ndash; 1 &ndash; 3</b> <span class="no">&#10005; not a loop here</span>: the dashed jump 1&rarr;3 has no line in the drawing.</p>
+        <p class="meta">Then answer the readability question and press Next. Closing the tab is fine &mdash; your code keeps your place.</p>
+        <div class="row">
+          <span></span>
+          <button class="next" id="begin" type="button">Start rating</button>
+        </div>
+      </div>
     </section>
 
     <section id="task" class="hidden">
