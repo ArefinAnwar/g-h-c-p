@@ -1,6 +1,5 @@
 (function () {
   const SCRIPT = (window.HUMAN_EVAL && window.HUMAN_EVAL.scriptUrl) || "";
-  const LS = "human_eval_gitqa70";
 
   const $ = (id) => document.getElementById(id);
   const gate = $("gate");
@@ -16,19 +15,6 @@
   let pick = null;
   let readable = "";
   let t0 = 0;
-
-  function localDone(w) {
-    try {
-      return JSON.parse(localStorage.getItem(LS + "_" + w) || "[]");
-    } catch (e) {
-      return [];
-    }
-  }
-  function localPush(w, rec) {
-    const all = localDone(w);
-    all.push(rec);
-    localStorage.setItem(LS + "_" + w, JSON.stringify(all));
-  }
 
   function jsonp(url) {
     return new Promise((resolve, reject) => {
@@ -67,7 +53,6 @@
   }
 
   function saveRow(rec) {
-    localPush(who, rec);
     if (!SCRIPT) return;
     const q = new URLSearchParams({
       write: "1",
@@ -83,6 +68,12 @@
     });
   }
 
+  function hashWho(w) {
+    let h = 70;
+    for (let i = 0; i < w.length; i++) h = (h * 31 + w.charCodeAt(i)) >>> 0;
+    return h || 1;
+  }
+
   function queueFor(w) {
     const a = assign[w];
     if (!a) return [];
@@ -94,7 +85,7 @@
         return s / 4294967296;
       };
     };
-    const r = rng(70 + w.charCodeAt(1));
+    const r = rng(hashWho(w));
     const shuf = ids.slice();
     for (let i = shuf.length - 1; i > 0; i--) {
       const j = Math.floor(r() * (i + 1));
@@ -181,7 +172,7 @@
     ]);
     assign = asg;
     if (!assign[who]) {
-      $("gate-err").textContent = "Use r1, r2, r3, r4, or r5.";
+      $("gate-err").textContent = "Unknown code — use the private code from your email.";
       $("gate-err").classList.remove("hidden");
       return;
     }
@@ -189,7 +180,8 @@
       itemsById[it.graph_id] = it;
     });
     const all = queueFor(who);
-    const doneIds = new Set([].concat(localDone(who).map((x) => x.graph_id), await remoteDone(who)));
+    // Progress lives on the server only: re-read it on every visit.
+    const doneIds = new Set(await remoteDone(who));
     queue = all.filter((id) => !doneIds.has(id));
     gate.classList.add("hidden");
     if (!queue.length) {
@@ -197,6 +189,10 @@
       $("done-msg").textContent = "Nothing left on this code. Thanks.";
       return;
     }
+    $("resume-msg").textContent =
+      doneIds.size > 0
+        ? "Welcome back — " + doneIds.size + " of " + all.length + " done, " + queue.length + " to go."
+        : "You have " + all.length + " drawings to rate.";
     howto.classList.remove("hidden");
   };
 

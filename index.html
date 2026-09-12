@@ -12,9 +12,9 @@
       <h1>Graph loop check</h1>
       <p class="sub">You will see a drawing and two candidate loops. Pick the loop you can actually trace on the lines. 14 drawings. You can stop and reopen this same link later.</p>
       <p>Your code</p>
-      <input id="who" placeholder="r1" maxlength="8" />
+      <input id="who" placeholder="40190" maxlength="8" />
       <div class="row">
-        <span class="meta">Use the code from your email: r1, r2, r3, r4, or r5.</span>
+        <span class="meta">Use the private code from your email.</span>
         <button class="next" id="start" type="button">Start</button>
       </div>
       <p class="err hidden" id="gate-err"></p>
@@ -22,6 +22,7 @@
 
     <section id="howto" class="hidden">
       <h1>How to rate (one example)</h1>
+      <p class="meta" id="resume-msg"></p>
       <p class="sub">A <b>loop</b> is a closed walk: follow the lines from node to node and come back to where you started. The loop is written <b>without repeating the start at the end</b>: &ldquo;0 &ndash; 1 &ndash; 2 &ndash; 3&rdquo; means 0&rarr;1&rarr;2&rarr;3&rarr;back to 0.</p>
       <div class="card">
         <svg class="demo" viewBox="0 0 360 240" role="img" aria-label="loop example">

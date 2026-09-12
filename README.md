@@ -25,11 +25,11 @@ Until that is on, the github.io URL is 404. You can still test by opening `index
 ### 3. Send these links
 Replace the host with your Pages URL:
 
-- r1: `...?who=r1`
-- r2: `...?who=r2`
-- r3: `...?who=r3`
-- r4: `...?who=r4`
-- r5: `...?who=r5`
+- 40190: `...?who=40190`
+- 40290: `...?who=40290`
+- 40390: `...?who=40390`
+- 40490: `...?who=40490`
+- 40590: `...?who=40590`
 
 Each person: 14 graphs, no overlap between reviewers.
 

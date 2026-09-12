@@ -212,8 +212,10 @@ def main() -> None:
 
     ids = [it["graph_id"] for it in items]
     # Five disjoint sets: each graph is seen by exactly one reviewer.
+    # Keys are opaque 5-digit codes (not r1..r5) so links are not guessable.
+    codes = ["40190", "40290", "40390", "40490", "40590"]
     assign = {
-        f"r{i + 1}": {"shared": [], "own": ids[i * 14:(i + 1) * 14]}
+        codes[i]: {"shared": [], "own": ids[i * 14:(i + 1) * 14]}
         for i in range(5)
     }
     (ROOT / "gold.json").write_text(json.dumps(gold_map, indent=2), encoding="utf-8")
