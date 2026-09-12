@@ -77,6 +77,35 @@
         </svg>
         <p><b>A. 5 &ndash; 0 &ndash; 1 &ndash; 2</b> <span class="ok">&#10003; traceable</span>: 5&rarr;0&rarr;1&rarr;2, and 2 connects back to 5 along the drawn line.</p>
         <p><b>B. 0 &ndash; 1 &ndash; 3</b> <span class="no">&#10005; not a loop here</span>: no line connects 1 to 3.</p>
+      </div>
+      <div class="card">
+        <p class="q">A branch that stops midway is not a loop either</p>
+        <svg class="demo" viewBox="0 0 440 220" role="img" aria-label="dead-end branch example">
+          <defs>
+            <marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#3d5a4c" stroke-width="1.6" />
+            </marker>
+          </defs>
+          <line x1="80" y1="50" x2="240" y2="50" class="e" />
+          <line x1="240" y1="50" x2="240" y2="180" class="e" />
+          <line x1="240" y1="180" x2="80" y2="180" class="e" />
+          <line x1="80" y1="180" x2="80" y2="50" class="e" />
+          <line x1="240" y1="50" x2="350" y2="50" class="e" />
+          <line x1="350" y1="50" x2="350" y2="160" class="e" />
+          <polyline points="80,50 240,50 350,50 350,160" fill="none" stroke="#3d5a4c" stroke-width="3" marker-mid="url(#ah3)" />
+          <line x1="350" y1="160" x2="80" y2="50" class="bad" />
+          <text x="215" y="120" text-anchor="middle" class="x">&#10005;</text>
+          <g class="n">
+            <circle cx="80" cy="50" r="16" /><text x="80" y="56" text-anchor="middle">0</text>
+            <circle cx="240" cy="50" r="16" /><text x="240" y="56" text-anchor="middle">1</text>
+            <circle cx="240" cy="180" r="16" /><text x="240" y="186" text-anchor="middle">2</text>
+            <circle cx="80" cy="180" r="16" /><text x="80" y="186" text-anchor="middle">3</text>
+            <circle cx="350" cy="50" r="16" /><text x="350" y="56" text-anchor="middle">4</text>
+            <circle cx="350" cy="160" r="16" /><text x="350" y="166" text-anchor="middle">5</text>
+          </g>
+        </svg>
+        <p><b>A. 0 &ndash; 1 &ndash; 2 &ndash; 3</b> <span class="ok">&#10003; traceable</span>: closes back to 0 along the square.</p>
+        <p><b>B. 0 &ndash; 1 &ndash; 4 &ndash; 5</b> <span class="no">&#10005; not a loop</span>: every step follows a line, but 5 is a dead end &mdash; the walk stops midway and never returns to 0. A branch off the loop does not close it.</p>
         <p class="meta">Then answer the readability question and press Next. Closing the tab is fine &mdash; your code keeps your place.</p>
         <div class="row">
           <span></span>
