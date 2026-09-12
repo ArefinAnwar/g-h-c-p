@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Graph loop check</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <section id="gate" class="gate">
+      <h1>Graph loop check</h1>
+      <p class="sub">You will see a drawing and four proposed loops. Pick the loop you can actually trace on the lines. About 30–35 drawings. You can stop and reopen this same link later.</p>
+      <p>Your code</p>
+      <input id="who" placeholder="r1" maxlength="8" />
+      <div class="row">
+        <span class="meta">Use the code from your email: r1, r2, r3, or r4.</span>
+        <button class="next" id="start" type="button">Start</button>
+      </div>
+      <p class="err hidden" id="gate-err"></p>
+    </section>
+
+    <section id="task" class="hidden">
+      <h1>Graph loop check</h1>
+      <p class="sub" id="prog-label">1 / 1</p>
+      <div class="bar"><i id="bar"></i></div>
+      <div class="card">
+        <img class="graph" id="img" alt="graph drawing" />
+        <p class="q">Which of these loops can you trace in the drawing?</p>
+        <div class="opts" id="opts"></div>
+        <p class="q">Is the drawing readable?</p>
+        <div class="read" id="read">
+          <button type="button" data-v="yes">Yes</button>
+          <button type="button" data-v="messy">Messy but usable</button>
+          <button type="button" data-v="no">No</button>
+        </div>
+        <div class="row">
+          <span class="meta" id="save-msg"></span>
+          <button class="next" id="next" type="button" disabled>Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="done" class="done hidden">
+      <h1>That’s all for your set</h1>
+      <p class="sub" id="done-msg">Thanks. You can close this tab.</p>
+    </section>
+  </div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+const GOLD = /*GOLD*/;
+
+function sheet_() {
+  const ss = SpreadsheetApp.getActive();
+  let sh = ss.getSheetByName("answers");
+  if (!sh) {
+    sh = ss.insertSheet("answers");
+    sh.appendRow([
+      "ts", "who", "graph_id", "gitqa_id", "choice_nodes", "readable", "correct", "ms",
+    ]);
+  }
+  return sh;
+}
+
+function norm_(nodes) {
+  var n = nodes.map(Number);
+  if (n.length >= 2 && n[0] === n[n.length - 1]) n = n.slice(0, -1);
+  if (n.length < 3) return "";
+  function rot(seq) {
+    var i = seq.indexOf(Math.min.apply(null, seq));
+    return seq.slice(i).concat(seq.slice(0, i)).join(",");
+  }
+  var a = rot(n);
+  var b = rot(n.slice().reverse());
+  return a < b ? a : b;
+}
+
+function doneFor_(who) {
+  var sh = sheet_();
+  var vals = sh.getDataRange().getValues();
+  var out = [];
+  for (var i = 1; i < vals.length; i++) {
+    if (String(vals[i][1]) === String(who) && vals[i][2] !== "") {
+      out.push(Number(vals[i][2]));
+    }
+  }
+  return out;
+}
+
+function jsonp_(e, obj) {
+  var body = JSON.stringify(obj);
+  var cb = e && e.parameter && e.parameter.callback;
+  if (cb) {
+    return ContentService.createTextOutput(cb + "(" + body + ")")
+      .setMimeType(ContentService.MimeType.JAVASCRIPT);
+  }
+  return ContentService.createTextOutput(body).setMimeType(ContentService.MimeType.JSON);
+}
+
+function doGet(e) {
+  var who = (e.parameter.who || "").trim();
+  if (!who) return jsonp_(e, { ok: false, error: "missing who" });
+  var done = doneFor_(who);
+  return jsonp_(e, { ok: true, who: who, done: done, n: done.length });
+}
+
+function doPost(e) {
+  var raw = (e.postData && e.postData.contents) || "{}";
+  var row = JSON.parse(raw);
+  var who = String(row.who || "").trim();
+  var gid = Number(row.graph_id);
+  var nodes = row.nodes || [];
+  var gold = GOLD[String(gid)] || [];
+  var correct = norm_(nodes) === norm_(gold) ? 1 : 0;
+  sheet_().appendRow([
+    new Date().toISOString(),
+    who,
+    gid,
+    row.gitqa_id || "",
+    (nodes || []).join("-"),
+    row.readable || "",
+    correct,
+    row.ms || "",
+  ]);
+  return ContentService.createTextOutput(
+    JSON.stringify({ ok: true, correct: correct, done: doneFor_(who) })
+  ).setMimeType(ContentService.MimeType.JSON);
+}
