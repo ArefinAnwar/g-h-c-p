@@ -52,6 +52,15 @@ svg.demo .n circle { fill: #fff; stroke: #2b2a28; stroke-width: 2; }
 svg.demo .n text { fill: #2b2a28; font-size: 15px; font-weight: 600; }
 .ok { color: var(--accent); font-weight: 600; }
 .no { color: var(--accent-2); font-weight: 600; }
+button.link {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
 .opts { display: grid; gap: 8px; }
 .opts button, .read button {
   text-align: left;

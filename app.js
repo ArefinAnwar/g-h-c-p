@@ -206,6 +206,11 @@
     showTask();
   };
 
+  $("rehow").onclick = () => {
+    task.classList.add("hidden");
+    howto.classList.remove("hidden");
+  };
+
   const q = new URLSearchParams(location.search).get("who");
   if (q) $("who").value = q.replace(/^\//, "");
 })();
