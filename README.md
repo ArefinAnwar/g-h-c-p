@@ -1,6 +1,6 @@
 # Human cycle check (GITQA 70, pilot)
 
-Four people. Each gets a link. One drawing, four loops, pick the one you can trace.
+Four people. Each gets a link. One drawing, two loops, pick the one you can trace.
 
 ## What you do (once)
 

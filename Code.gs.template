@@ -16,6 +16,8 @@ function sheet_() {
       "ts", "who", "graph_id", "gitqa_id", "choice_nodes", "readable", "correct", "ms",
     ]);
   }
+  // Keep node lists as text: Sheets turns "0-1-3" into the date 2000-1-3 otherwise.
+  sh.getRange("E:E").setNumberFormat("@");
   return sh;
 }
 
@@ -71,7 +73,7 @@ function writeRow_(row) {
     who,
     gid,
     row.gitqa_id || "",
-    nodes.join("-"),
+    "'" + nodes.join("-"),
     row.readable || "",
     correct,
     row.ms || "",

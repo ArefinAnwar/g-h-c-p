@@ -1,4 +1,4 @@
-"""Build 70 Ring PNGs + 4-choice items for the human cycle pilot."""
+"""Build 70 Ring PNGs + 2-choice items for the human cycle pilot."""
 from __future__ import annotations
 
 import json
@@ -137,39 +137,38 @@ def adjacent_fake(G: nx.Graph, order: list[int], gold: list[int]) -> list[int] |
     return None
 
 
-def four_options(G: nx.Graph, order: list[int], rng: random.Random) -> tuple[list[int], list[dict]]:
+def two_options(G: nx.Graph, order: list[int], rng: random.Random) -> tuple[list[int], list[dict]]:
     gold = shortest_cycle(G)
     if len(gold) < 3:
         raise RuntimeError("no cycle")
     seen = {norm_cyc(gold)}
     pool: list[tuple[str, list[int]]] = [("gold", gold)]
-
-    def add(kind: str, cyc: list[int] | None) -> None:
-        if not cyc or len(cyc) < 3:
-            return
-        key = norm_cyc(cyc)
-        if not key or key in seen:
-            return
-        seen.add(key)
-        pool.append((kind, cyc))
-
-    add("premature", premature_close(gold, G))
-    add("adjacent", adjacent_fake(G, order, gold))
-    add("other", other_gold_cycle(G, gold))
-    # pad with other simple cycles if needed
-    if len(pool) < 4:
+    # Single foil: premature close first (the trap of interest), then fallbacks.
+    for kind, cyc in (
+        ("premature", premature_close(gold, G)),
+        ("adjacent", adjacent_fake(G, order, gold)),
+        ("other", other_gold_cycle(G, gold)),
+    ):
+        if cyc and len(cyc) >= 3 and norm_cyc(cyc) not in seen:
+            seen.add(norm_cyc(cyc))
+            pool.append((kind, cyc))
+            break
+    # pad with another simple cycle if needed
+    if len(pool) < 2:
         for cyc in nx.cycle_basis(G):
-            add("other", [int(x) for x in cyc])
-            if len(pool) >= 4:
+            c = [int(x) for x in cyc]
+            if len(c) >= 3 and norm_cyc(c) not in seen:
+                seen.add(norm_cyc(c))
+                pool.append(("other", c))
                 break
-    if len(pool) < 4:
+    if len(pool) < 2:
         nodes = list(G.nodes())
         for _ in range(20):
             a, b, c = rng.sample(nodes, 3)
-            add("filler", [a, b, c])
-            if len(pool) >= 4:
+            if norm_cyc([a, b, c]) not in seen:
+                pool.append(("filler", [a, b, c]))
                 break
-    pool = pool[:4]
+    pool = pool[:2]
     rng.shuffle(pool)
     opts = [{"id": i, "kind": k, "nodes": cyc, "label": fmt_cyc(cyc)} for i, (k, cyc) in enumerate(pool)]
     return gold, opts
@@ -197,7 +196,7 @@ def main() -> None:
         plt.close(fig)
         order = ring_order_from_pos(pos)
         rng = random.Random(70 + gid)
-        gold_cyc, opts = four_options(G, order, rng)
+        gold_cyc, opts = two_options(G, order, rng)
         gold_key = list(norm_cyc(gold_cyc))
         gold_map[str(gid)] = gold_key
         items.append(
