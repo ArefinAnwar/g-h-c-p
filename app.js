@@ -65,9 +65,43 @@
     }
   }
 
-  async function saveRow(rec) {
+  function formPost(rec) {
+    let iframe = document.getElementById("he_sink");
+    if (!iframe) {
+      iframe = document.createElement("iframe");
+      iframe.id = "he_sink";
+      iframe.name = "he_sink";
+      iframe.style.display = "none";
+      document.body.appendChild(iframe);
+    }
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = SCRIPT;
+    form.target = "he_sink";
+    form.style.display = "none";
+    const fields = {
+      who: rec.who,
+      graph_id: rec.graph_id,
+      gitqa_id: rec.gitqa_id || "",
+      nodes: (rec.nodes || []).join("-"),
+      readable: rec.readable || "",
+      ms: rec.ms || "",
+    };
+    Object.keys(fields).forEach((k) => {
+      const i = document.createElement("input");
+      i.name = k;
+      i.value = String(fields[k]);
+      form.appendChild(i);
+    });
+    document.body.appendChild(form);
+    form.submit();
+    setTimeout(() => form.remove(), 4000);
+  }
+
+  function saveRow(rec) {
     localPush(who, rec);
     if (!SCRIPT) return;
+    formPost(rec);
     const q = new URLSearchParams({
       write: "1",
       who: rec.who,
@@ -77,11 +111,9 @@
       readable: rec.readable || "",
       ms: String(rec.ms || ""),
     });
-    try {
-      await jsonp(SCRIPT + "?" + q.toString());
-    } catch (e) {
+    jsonp(SCRIPT + "?" + q.toString()).catch(() => {
       $("save-msg").textContent = "Saved on this device (sheet unreachable).";
-    }
+    });
   }
 
   function queueFor(w) {

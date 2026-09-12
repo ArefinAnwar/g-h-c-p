@@ -8,14 +8,15 @@ Four people. Each gets a link. One drawing, four loops, pick the one you can tra
 1. Open [Google Sheets](https://sheets.google.com) and make a blank spreadsheet. Name it `gitqa-human-pilot`.
 2. **Extensions → Apps Script**. Delete any starter code.
 3. Paste the whole contents of `Code.gs` from this repo. Save.
-4. **Deploy → New deployment → Web app**.
+4. At the top, choose function **`bindSheet`**, click **Run**, authorize if asked.
+5. **Deploy → Manage deployments → pencil**.
+   - Version: **New version**
    - Execute as: **Me**
    - Who has access: **Anyone**
-5. Authorize (Google asks you, once).
-6. Copy the URL that ends with `/exec`.
-7. Open `config.js` in this repo. Put that URL in `scriptUrl`. Commit and push.
+   - Click **Deploy** (the dropdown alone does nothing).
+6. In an incognito window open the `/exec?ping=1` URL. You must see `{"ok":true,"ping":true}`. If Google Drive says you need access, the deploy did not take.
 
-Until step 7 is done, answers still save in the reviewer’s browser. After step 7 they also land in the Sheet.
+Until ping shows JSON, answers stay only in the reviewer’s browser.
 
 ### 2. GitHub Pages (required for the public links)
 Repo **Settings → Pages → Deploy from a branch → `main` / `/ (root)`** → Save.  
