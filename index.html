@@ -21,10 +21,11 @@
     </section>
 
     <section id="howto" class="hidden">
-      <h1>How to rate (one example)</h1>
+      <h1>How to rate</h1>
       <p class="meta" id="resume-msg"></p>
-      <p class="sub">A <b>loop</b> is a closed walk: follow the lines from node to node and come back to where you started. The loop is written <b>without repeating the start at the end</b>: &ldquo;0 &ndash; 1 &ndash; 2 &ndash; 3&rdquo; means 0&rarr;1&rarr;2&rarr;3&rarr;back to 0.</p>
+      <p class="sub">A <b>loop</b> is a closed walk: follow the drawn lines from number to number and end up back where you started. The list leaves out the repeat at the end &mdash; &ldquo;0 &ndash; 1 &ndash; 2 &ndash; 3&rdquo; means 0&rarr;1&rarr;2&rarr;3&rarr;back to 0. Every step, <b>including the last one home</b>, has to sit on a line that is really drawn.</p>
       <div class="card">
+        <p class="q">1. The basic idea</p>
         <svg class="demo" viewBox="0 0 360 240" role="img" aria-label="loop example">
           <defs>
             <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -49,7 +50,7 @@
         <p><b>B. 0 &ndash; 1 &ndash; 3</b> <span class="no">&#10005; not a loop here</span>: the dashed jump 1&rarr;3 has no line in the drawing.</p>
       </div>
       <div class="card">
-        <p class="q">Ring drawings work exactly the same way</p>
+        <p class="q">2. Ring drawings work exactly the same way</p>
         <svg class="demo" viewBox="0 0 360 220" role="img" aria-label="circular loop example">
           <defs>
             <marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -76,10 +77,10 @@
           </g>
         </svg>
         <p><b>A. 5 &ndash; 0 &ndash; 1 &ndash; 2</b> <span class="ok">&#10003; traceable</span>: 5&rarr;0&rarr;1&rarr;2, and 2 connects back to 5 along the drawn line.</p>
-        <p><b>B. 0 &ndash; 1 &ndash; 3</b> <span class="no">&#10005; not a loop here</span>: no line connects 1 to 3.</p>
+        <p><b>B. 0 &ndash; 1 &ndash; 3</b> <span class="no">&#10005; not a loop here</span>: no line connects 1 to 3. Sitting near each other on the circle means nothing &mdash; only a drawn line counts.</p>
       </div>
       <div class="card">
-        <p class="q">A branch that stops midway is not a loop either</p>
+        <p class="q">3. Watch out: the walk that never gets home</p>
         <svg class="demo" viewBox="0 0 440 220" role="img" aria-label="dead-end branch example">
           <defs>
             <marker id="ah3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
@@ -105,8 +106,48 @@
           </g>
         </svg>
         <p><b>A. 0 &ndash; 1 &ndash; 2 &ndash; 3</b> <span class="ok">&#10003; traceable</span>: closes back to 0 along the square.</p>
-        <p><b>B. 0 &ndash; 1 &ndash; 4 &ndash; 5</b> <span class="no">&#10005; not a loop</span>: every step follows a line, but 5 is a dead end &mdash; the walk stops midway and never returns to 0. A branch off the loop does not close it.</p>
-        <p class="meta">Then answer the readability question and press Next. Closing the tab is fine &mdash; your code keeps your place.</p>
+        <p><b>B. 0 &ndash; 1 &ndash; 4 &ndash; 5</b> <span class="no">&#10005; not a loop</span>: every step here is a real line, so it reads fine right up to the end &mdash; but 5 has nothing going back to 0. It is a dead end hanging off the square. <b>This is the most common trap:</b> the walk is real, the way home is not.</p>
+      </div>
+      <div class="card">
+        <p class="q">4. Watch out: crossing lines are not junctions</p>
+        <svg class="demo" viewBox="0 0 360 220" role="img" aria-label="crossing lines example">
+          <defs>
+            <marker id="ah4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#3d5a4c" stroke-width="1.6" />
+            </marker>
+          </defs>
+          <line x1="180" y1="25" x2="253.6" y2="67.5" class="e" />
+          <line x1="253.6" y1="67.5" x2="253.6" y2="152.5" class="e" />
+          <line x1="253.6" y1="152.5" x2="180" y2="195" class="e" />
+          <line x1="180" y1="195" x2="106.4" y2="152.5" class="e" />
+          <line x1="106.4" y1="152.5" x2="106.4" y2="67.5" class="e" />
+          <line x1="106.4" y1="67.5" x2="180" y2="25" class="e" />
+          <line x1="180" y1="25" x2="253.6" y2="152.5" class="e" />
+          <line x1="253.6" y1="67.5" x2="106.4" y2="152.5" class="e" />
+          <polyline points="180,25 253.6,67.5 253.6,152.5 180,25" fill="none" stroke="#3d5a4c" stroke-width="3" marker-mid="url(#ah4)" />
+          <line x1="180" y1="25" x2="106.4" y2="152.5" class="bad" />
+          <circle cx="216.8" cy="88.8" r="12" fill="none" stroke="#c45c26" stroke-width="2" stroke-dasharray="4 3" />
+          <text x="128" y="94" text-anchor="middle" class="x">&#10005;</text>
+          <g class="n">
+            <circle cx="180" cy="25" r="15" /><text x="180" y="31" text-anchor="middle">0</text>
+            <circle cx="253.6" cy="67.5" r="15" /><text x="253.6" y="73.5" text-anchor="middle">1</text>
+            <circle cx="253.6" cy="152.5" r="15" /><text x="253.6" y="158.5" text-anchor="middle">2</text>
+            <circle cx="180" cy="195" r="15" /><text x="180" y="201" text-anchor="middle">3</text>
+            <circle cx="106.4" cy="152.5" r="15" /><text x="106.4" y="158.5" text-anchor="middle">4</text>
+            <circle cx="106.4" cy="67.5" r="15" /><text x="106.4" y="73.5" text-anchor="middle">5</text>
+          </g>
+        </svg>
+        <p><b>A. 0 &ndash; 1 &ndash; 2</b> <span class="ok">&#10003; traceable</span>: 0&rarr;1 and 1&rarr;2 around the rim, then one straight line carries 2 back to 0. It passes <i>over</i> another line on the way (circled) &mdash; passing over is fine.</p>
+        <p><b>B. 0 &ndash; 4 &ndash; 5</b> <span class="no">&#10005; not a loop</span>: nothing joins 0 to 4. The only way across is to hop onto a different line at the circled spot &mdash; and a crossing is just two lines passing over each other, never a corner you can turn at.</p>
+      </div>
+      <div class="card">
+        <p class="q">The quick way to check</p>
+        <p><b>1. Check the way home first.</b> Take the last number and the first one &mdash; is there a line joining them? The two options usually share almost all their numbers, so this closing step is where they differ, and it often settles the answer on its own.</p>
+        <p><b>2. Then walk the rest.</b> Number, line, next number. Each pair of circles needs one unbroken line between them. The moment a step has no line, that option is out.</p>
+        <p><b>3. Ignore the noise.</b> Lines crossing on the way do not count, and two numbers sitting side by side on the circle are not joined unless a line says so.</p>
+        <p class="meta">One of the two is always traceable. If both look wrong, go back and re-check each one&rsquo;s closing step &mdash; that is nearly always where the difference hides.</p>
+        <p class="meta">Do as many as you are comfortable with. There is no timer and no penalty for stopping early: your code keeps your place on our side, so you can close the tab and carry on from the same link whenever you like. Even a partial set is genuinely useful to us.</p>
+        <p class="meta">After each drawing you will also be asked whether it was readable. That question is about the picture, not about your answer &mdash; for the busy ones, &ldquo;Messy but usable&rdquo; is a perfectly normal thing to say.</p>
         <div class="row">
           <span></span>
           <button class="next" id="begin" type="button">Start rating</button>
