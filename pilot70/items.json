@@ -1,0 +1,1909 @@
+{
+  "items": [
+    {
+      "graph_id": 0,
+      "gitqa_id": 1000,
+      "image": "images/g00_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 19 \u2013 11 \u2013 15 \u2013 22 \u2013 16",
+          "nodes": [
+            0,
+            19,
+            11,
+            15,
+            22,
+            16
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 19 \u2013 11 \u2013 15 \u2013 22 \u2013 16 \u2013 1",
+          "nodes": [
+            0,
+            19,
+            11,
+            15,
+            22,
+            16,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 1,
+      "gitqa_id": 1001,
+      "image": "images/g01_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 4 \u2013 17 \u2013 2",
+          "nodes": [
+            0,
+            4,
+            17,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 17",
+          "nodes": [
+            0,
+            4,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 2,
+      "gitqa_id": 1002,
+      "image": "images/g02_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 4 \u2013 20 \u2013 12",
+          "nodes": [
+            0,
+            2,
+            4,
+            20,
+            12
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 4 \u2013 20 \u2013 12 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            4,
+            20,
+            12,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 3,
+      "gitqa_id": 1003,
+      "image": "images/g03_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 6 \u2013 7 \u2013 17 \u2013 22 \u2013 1",
+          "nodes": [
+            0,
+            6,
+            7,
+            17,
+            22,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 6 \u2013 7 \u2013 17 \u2013 22",
+          "nodes": [
+            0,
+            6,
+            7,
+            17,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 4,
+      "gitqa_id": 1004,
+      "image": "images/g04_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 7 \u2013 21",
+          "nodes": [
+            20,
+            7,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 3 \u2013 1",
+          "nodes": [
+            0,
+            3,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 5,
+      "gitqa_id": 1005,
+      "image": "images/g05_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 24 \u2013 4 \u2013 16 \u2013 1",
+          "nodes": [
+            0,
+            24,
+            4,
+            16,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 24 \u2013 4 \u2013 16",
+          "nodes": [
+            0,
+            24,
+            4,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 6,
+      "gitqa_id": 1006,
+      "image": "images/g06_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 2",
+          "nodes": [
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "21 \u2013 1 \u2013 22",
+          "nodes": [
+            21,
+            1,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 7,
+      "gitqa_id": 1007,
+      "image": "images/g07_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 18 \u2013 19 \u2013 16 \u2013 15 \u2013 14 \u2013 9 \u2013 2 \u2013 20 \u2013 5 \u2013 1",
+          "nodes": [
+            0,
+            18,
+            19,
+            16,
+            15,
+            14,
+            9,
+            2,
+            20,
+            5,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 18 \u2013 19 \u2013 16 \u2013 15 \u2013 14 \u2013 9 \u2013 2 \u2013 20 \u2013 5",
+          "nodes": [
+            0,
+            18,
+            19,
+            16,
+            15,
+            14,
+            9,
+            2,
+            20,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 8,
+      "gitqa_id": 1008,
+      "image": "images/g08_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 19",
+          "nodes": [
+            0,
+            2,
+            19
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 19 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            19,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 9,
+      "gitqa_id": 1009,
+      "image": "images/g09_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 12 \u2013 21",
+          "nodes": [
+            20,
+            12,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 3 \u2013 2",
+          "nodes": [
+            0,
+            3,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 10,
+      "gitqa_id": 1010,
+      "image": "images/g10_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 2",
+          "nodes": [
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "12 \u2013 4 \u2013 3",
+          "nodes": [
+            12,
+            4,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 11,
+      "gitqa_id": 1011,
+      "image": "images/g11_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 2",
+          "nodes": [
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "20 \u2013 12 \u2013 21",
+          "nodes": [
+            20,
+            12,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 12,
+      "gitqa_id": 1012,
+      "image": "images/g12_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 0 \u2013 21",
+          "nodes": [
+            20,
+            0,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 13,
+      "gitqa_id": 1013,
+      "image": "images/g13_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 1",
+          "nodes": [
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "20 \u2013 14 \u2013 21",
+          "nodes": [
+            20,
+            14,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 14,
+      "gitqa_id": 1014,
+      "image": "images/g14_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 8 \u2013 15 \u2013 2",
+          "nodes": [
+            0,
+            8,
+            15,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 8 \u2013 15",
+          "nodes": [
+            0,
+            8,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 15,
+      "gitqa_id": 1015,
+      "image": "images/g15_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 20 \u2013 5",
+          "nodes": [
+            0,
+            2,
+            20,
+            5
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 20 \u2013 5 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            20,
+            5,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 16,
+      "gitqa_id": 1016,
+      "image": "images/g16_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "10 \u2013 12 \u2013 14",
+          "nodes": [
+            10,
+            12,
+            14
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 17,
+      "gitqa_id": 1017,
+      "image": "images/g17_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 13 \u2013 25 \u2013 20 \u2013 7",
+          "nodes": [
+            0,
+            13,
+            25,
+            20,
+            7
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 13 \u2013 25 \u2013 20 \u2013 7 \u2013 1",
+          "nodes": [
+            0,
+            13,
+            25,
+            20,
+            7,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 18,
+      "gitqa_id": 1018,
+      "image": "images/g18_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 14 \u2013 13 \u2013 3",
+          "nodes": [
+            0,
+            14,
+            13,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 14 \u2013 13",
+          "nodes": [
+            0,
+            14,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 19,
+      "gitqa_id": 1019,
+      "image": "images/g19_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "7 \u2013 3 \u2013 11",
+          "nodes": [
+            7,
+            3,
+            11
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 1",
+          "nodes": [
+            0,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 20,
+      "gitqa_id": 1020,
+      "image": "images/g20_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 24 \u2013 4 \u2013 16",
+          "nodes": [
+            0,
+            24,
+            4,
+            16
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 24 \u2013 4 \u2013 16 \u2013 1",
+          "nodes": [
+            0,
+            24,
+            4,
+            16,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 21,
+      "gitqa_id": 1021,
+      "image": "images/g21_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 13 \u2013 23",
+          "nodes": [
+            0,
+            13,
+            23
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 13 \u2013 23 \u2013 1",
+          "nodes": [
+            0,
+            13,
+            23,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 22,
+      "gitqa_id": 1022,
+      "image": "images/g22_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 4 \u2013 20 \u2013 12 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            4,
+            20,
+            12,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 4 \u2013 20 \u2013 12",
+          "nodes": [
+            0,
+            2,
+            4,
+            20,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 23,
+      "gitqa_id": 1023,
+      "image": "images/g23_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 2",
+          "nodes": [
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "13 \u2013 16 \u2013 25",
+          "nodes": [
+            13,
+            16,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 24,
+      "gitqa_id": 1024,
+      "image": "images/g24_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 13 \u2013 8",
+          "nodes": [
+            0,
+            13,
+            8
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 13 \u2013 8 \u2013 1",
+          "nodes": [
+            0,
+            13,
+            8,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 25,
+      "gitqa_id": 1025,
+      "image": "images/g25_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 25 \u2013 21",
+          "nodes": [
+            20,
+            25,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 1",
+          "nodes": [
+            0,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 26,
+      "gitqa_id": 1026,
+      "image": "images/g26_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 4 \u2013 6 \u2013 1",
+          "nodes": [
+            0,
+            4,
+            6,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 6",
+          "nodes": [
+            0,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 27,
+      "gitqa_id": 1027,
+      "image": "images/g27_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 13",
+          "nodes": [
+            0,
+            3,
+            13
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 3 \u2013 13 \u2013 2",
+          "nodes": [
+            0,
+            3,
+            13,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 28,
+      "gitqa_id": 1028,
+      "image": "images/g28_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 13 \u2013 25 \u2013 20 \u2013 7 \u2013 1",
+          "nodes": [
+            0,
+            13,
+            25,
+            20,
+            7,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 13 \u2013 25 \u2013 20 \u2013 7",
+          "nodes": [
+            0,
+            13,
+            25,
+            20,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 29,
+      "gitqa_id": 1029,
+      "image": "images/g29_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 14 \u2013 2",
+          "nodes": [
+            0,
+            14,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "20 \u2013 2 \u2013 21",
+          "nodes": [
+            20,
+            2,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 30,
+      "gitqa_id": 1030,
+      "image": "images/g30_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 13 \u2013 23",
+          "nodes": [
+            0,
+            13,
+            23
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 13 \u2013 23 \u2013 1",
+          "nodes": [
+            0,
+            13,
+            23,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 31,
+      "gitqa_id": 1031,
+      "image": "images/g31_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 20 \u2013 10 \u2013 14 \u2013 12 \u2013 2 \u2013 11 \u2013 15",
+          "nodes": [
+            0,
+            20,
+            10,
+            14,
+            12,
+            2,
+            11,
+            15
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 20 \u2013 10 \u2013 14 \u2013 12 \u2013 2 \u2013 11 \u2013 15 \u2013 1",
+          "nodes": [
+            0,
+            20,
+            10,
+            14,
+            12,
+            2,
+            11,
+            15,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 32,
+      "gitqa_id": 1032,
+      "image": "images/g32_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "18 \u2013 21 \u2013 5",
+          "nodes": [
+            18,
+            21,
+            5
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 6 \u2013 2",
+          "nodes": [
+            0,
+            6,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 33,
+      "gitqa_id": 1033,
+      "image": "images/g33_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 14 \u2013 9 \u2013 4 \u2013 2 \u2013 17 \u2013 1",
+          "nodes": [
+            0,
+            14,
+            9,
+            4,
+            2,
+            17,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 14 \u2013 9 \u2013 4 \u2013 2 \u2013 17",
+          "nodes": [
+            0,
+            14,
+            9,
+            4,
+            2,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 34,
+      "gitqa_id": 1034,
+      "image": "images/g34_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 7 \u2013 12 \u2013 23 \u2013 13 \u2013 8 \u2013 16",
+          "nodes": [
+            0,
+            7,
+            12,
+            23,
+            13,
+            8,
+            16
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 7 \u2013 12 \u2013 23 \u2013 13 \u2013 8 \u2013 16 \u2013 1",
+          "nodes": [
+            0,
+            7,
+            12,
+            23,
+            13,
+            8,
+            16,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 35,
+      "gitqa_id": 1035,
+      "image": "images/g35_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "9 \u2013 4 \u2013 2",
+          "nodes": [
+            9,
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 36,
+      "gitqa_id": 1036,
+      "image": "images/g36_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 10 \u2013 2",
+          "nodes": [
+            0,
+            10,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "20 \u2013 2 \u2013 21",
+          "nodes": [
+            20,
+            2,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 37,
+      "gitqa_id": 1037,
+      "image": "images/g37_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 11 \u2013 2 \u2013 4",
+          "nodes": [
+            0,
+            11,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 11 \u2013 2 \u2013 4 \u2013 1",
+          "nodes": [
+            0,
+            11,
+            2,
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 38,
+      "gitqa_id": 1038,
+      "image": "images/g38_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 11 \u2013 21",
+          "nodes": [
+            20,
+            11,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 11 \u2013 2",
+          "nodes": [
+            0,
+            11,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 39,
+      "gitqa_id": 1039,
+      "image": "images/g39_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 18 \u2013 3",
+          "nodes": [
+            0,
+            18,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "label": "20 \u2013 8 \u2013 21",
+          "nodes": [
+            20,
+            8,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 40,
+      "gitqa_id": 1040,
+      "image": "images/g40_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 5 \u2013 18 \u2013 1",
+          "nodes": [
+            0,
+            3,
+            5,
+            18,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 3 \u2013 5 \u2013 18",
+          "nodes": [
+            0,
+            3,
+            5,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 41,
+      "gitqa_id": 1041,
+      "image": "images/g41_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 12 \u2013 21",
+          "nodes": [
+            20,
+            12,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 2",
+          "nodes": [
+            0,
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 42,
+      "gitqa_id": 1042,
+      "image": "images/g42_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 6 \u2013 2",
+          "nodes": [
+            0,
+            6,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "9 \u2013 16 \u2013 21",
+          "nodes": [
+            9,
+            16,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 43,
+      "gitqa_id": 1043,
+      "image": "images/g43_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 17 \u2013 16 \u2013 24",
+          "nodes": [
+            0,
+            17,
+            16,
+            24
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 17 \u2013 16 \u2013 24 \u2013 3",
+          "nodes": [
+            0,
+            17,
+            16,
+            24,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 44,
+      "gitqa_id": 1044,
+      "image": "images/g44_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 12 \u2013 21",
+          "nodes": [
+            20,
+            12,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 12 \u2013 1",
+          "nodes": [
+            0,
+            12,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 45,
+      "gitqa_id": 1045,
+      "image": "images/g45_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 24 \u2013 18 \u2013 8 \u2013 20 \u2013 10 \u2013 2",
+          "nodes": [
+            0,
+            24,
+            18,
+            8,
+            20,
+            10,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 24 \u2013 18 \u2013 8 \u2013 20 \u2013 10",
+          "nodes": [
+            0,
+            24,
+            18,
+            8,
+            20,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 46,
+      "gitqa_id": 1046,
+      "image": "images/g46_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 5 \u2013 13 \u2013 1",
+          "nodes": [
+            0,
+            5,
+            13,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 5 \u2013 13",
+          "nodes": [
+            0,
+            5,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 47,
+      "gitqa_id": 1047,
+      "image": "images/g47_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 25 \u2013 2",
+          "nodes": [
+            0,
+            25,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 25 \u2013 2 \u2013 1",
+          "nodes": [
+            0,
+            25,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 48,
+      "gitqa_id": 1048,
+      "image": "images/g48_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 13 \u2013 21",
+          "nodes": [
+            20,
+            13,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 17 \u2013 1",
+          "nodes": [
+            0,
+            17,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 49,
+      "gitqa_id": 1049,
+      "image": "images/g49_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 4 \u2013 17 \u2013 2",
+          "nodes": [
+            0,
+            4,
+            17,
+            2
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 17",
+          "nodes": [
+            0,
+            4,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 50,
+      "gitqa_id": 1050,
+      "image": "images/g50_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 5 \u2013 13",
+          "nodes": [
+            0,
+            5,
+            13
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 5 \u2013 13 \u2013 1",
+          "nodes": [
+            0,
+            5,
+            13,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 51,
+      "gitqa_id": 1051,
+      "image": "images/g51_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "20 \u2013 12 \u2013 21",
+          "nodes": [
+            20,
+            12,
+            21
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 18 \u2013 3",
+          "nodes": [
+            0,
+            18,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 52,
+      "gitqa_id": 1052,
+      "image": "images/g52_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 19 \u2013 10",
+          "nodes": [
+            0,
+            19,
+            10
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 19 \u2013 10 \u2013 1",
+          "nodes": [
+            0,
+            19,
+            10,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 53,
+      "gitqa_id": 1053,
+      "image": "images/g53_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 19",
+          "nodes": [
+            0,
+            2,
+            19
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 19 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            19,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 54,
+      "gitqa_id": 1054,
+      "image": "images/g54_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 14 \u2013 3",
+          "nodes": [
+            0,
+            14,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "label": "11 \u2013 16 \u2013 21",
+          "nodes": [
+            11,
+            16,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 55,
+      "gitqa_id": 1055,
+      "image": "images/g55_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 5 \u2013 15 \u2013 9 \u2013 14 \u2013 8 \u2013 22 \u2013 3",
+          "nodes": [
+            0,
+            5,
+            15,
+            9,
+            14,
+            8,
+            22,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 5 \u2013 15 \u2013 9 \u2013 14 \u2013 8 \u2013 22 \u2013 3 \u2013 1",
+          "nodes": [
+            0,
+            5,
+            15,
+            9,
+            14,
+            8,
+            22,
+            3,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 56,
+      "gitqa_id": 1056,
+      "image": "images/g56_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 4 \u2013 11",
+          "nodes": [
+            0,
+            4,
+            11
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 11 \u2013 3",
+          "nodes": [
+            0,
+            4,
+            11,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 57,
+      "gitqa_id": 1057,
+      "image": "images/g57_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 8 \u2013 15",
+          "nodes": [
+            0,
+            8,
+            15
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 8 \u2013 15 \u2013 2",
+          "nodes": [
+            0,
+            8,
+            15,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 58,
+      "gitqa_id": 1058,
+      "image": "images/g58_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 21 \u2013 13 \u2013 19",
+          "nodes": [
+            0,
+            21,
+            13,
+            19
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 21 \u2013 13 \u2013 19 \u2013 2",
+          "nodes": [
+            0,
+            21,
+            13,
+            19,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 59,
+      "gitqa_id": 1059,
+      "image": "images/g59_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 19 \u2013 5 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            19,
+            5,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 19 \u2013 5",
+          "nodes": [
+            0,
+            2,
+            19,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 60,
+      "gitqa_id": 1060,
+      "image": "images/g60_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 21 \u2013 7 \u2013 3",
+          "nodes": [
+            0,
+            21,
+            7,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 21 \u2013 7",
+          "nodes": [
+            0,
+            21,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 61,
+      "gitqa_id": 1061,
+      "image": "images/g61_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 19 \u2013 10 \u2013 1",
+          "nodes": [
+            0,
+            19,
+            10,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 19 \u2013 10",
+          "nodes": [
+            0,
+            19,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 62,
+      "gitqa_id": 1062,
+      "image": "images/g62_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 4 \u2013 17 \u2013 25 \u2013 15 \u2013 1",
+          "nodes": [
+            0,
+            4,
+            17,
+            25,
+            15,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 4 \u2013 17 \u2013 25 \u2013 15",
+          "nodes": [
+            0,
+            4,
+            17,
+            25,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 63,
+      "gitqa_id": 1063,
+      "image": "images/g63_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 8 \u2013 15 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            8,
+            15,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 8 \u2013 15",
+          "nodes": [
+            0,
+            2,
+            8,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 64,
+      "gitqa_id": 1064,
+      "image": "images/g64_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 11 \u2013 15 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            11,
+            15,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 11 \u2013 15",
+          "nodes": [
+            0,
+            2,
+            11,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 65,
+      "gitqa_id": 1065,
+      "image": "images/g65_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 12 \u2013 1",
+          "nodes": [
+            0,
+            3,
+            12,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 3 \u2013 12",
+          "nodes": [
+            0,
+            3,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 66,
+      "gitqa_id": 1066,
+      "image": "images/g66_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 3 \u2013 5 \u2013 1",
+          "nodes": [
+            0,
+            3,
+            5,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 3 \u2013 5",
+          "nodes": [
+            0,
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 67,
+      "gitqa_id": 1067,
+      "image": "images/g67_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 10 \u2013 6",
+          "nodes": [
+            0,
+            10,
+            6
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 10 \u2013 6 \u2013 2",
+          "nodes": [
+            0,
+            10,
+            6,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 68,
+      "gitqa_id": 1068,
+      "image": "images/g68_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 18 \u2013 24 \u2013 25",
+          "nodes": [
+            0,
+            18,
+            24,
+            25
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 18 \u2013 24 \u2013 25 \u2013 1",
+          "nodes": [
+            0,
+            18,
+            24,
+            25,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "graph_id": 69,
+      "gitqa_id": 1069,
+      "image": "images/g69_circular.png",
+      "options": [
+        {
+          "id": 0,
+          "label": "0 \u2013 2 \u2013 11 \u2013 15",
+          "nodes": [
+            0,
+            2,
+            11,
+            15
+          ]
+        },
+        {
+          "id": 1,
+          "label": "0 \u2013 2 \u2013 11 \u2013 15 \u2013 1",
+          "nodes": [
+            0,
+            2,
+            11,
+            15,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}
