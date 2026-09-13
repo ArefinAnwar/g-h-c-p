@@ -52,6 +52,25 @@ function doneFor_(who) {
   return out;
 }
 
+function stats_() {
+  var vals = sheet_().getDataRange().getValues();
+  var rows = [];
+  for (var i = 1; i < vals.length; i++) {
+    if (vals[i][1] === "" && vals[i][2] === "") continue;
+    rows.push({
+      ts: String(vals[i][0] || ""),
+      who: String(vals[i][1] || ""),
+      graph_id: Number(vals[i][2]),
+      gitqa_id: String(vals[i][3] || ""),
+      choice_nodes: String(vals[i][4] || "").replace(/^'/, ""),
+      readable: String(vals[i][5] || ""),
+      correct: Number(vals[i][6] || 0),
+      ms: Number(vals[i][7] || 0)
+    });
+  }
+  return rows;
+}
+
 function jsonp_(e, obj) {
   var body = JSON.stringify(obj);
   var cb = e && e.parameter && e.parameter.callback;
@@ -98,6 +117,10 @@ function doGet(e) {
     e = e || { parameter: {} };
     if (String(e.parameter.ping || "") === "1") {
       return jsonp_(e, { ok: true, ping: true });
+    }
+    if (String(e.parameter.stats || "") === "1") {
+      var rows = stats_();
+      return jsonp_(e, { ok: true, n: rows.length, rows: rows });
     }
     if (String(e.parameter.write || "") === "1") {
       return jsonp_(e, writeRow_(rowFrom_(e)));

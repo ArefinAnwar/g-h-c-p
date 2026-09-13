@@ -1,0 +1,501 @@
+graph_id,image,source,pack_id,gitqa_ref,n,m,girth,cycles,longest_cycle,crossings,ring_order,gold_cycle,foil_kind,reviewer
+0,r000_circular.png,gitqa,gitqa_00,1070,26,26,9,1,,79,node_id,0 – 21 – 13 – 18 – 14 – 4 – 25 – 3 – 1,premature,40190
+1,r001_circular.png,generated,00,gen-00,12,15,3,4,5,17,node_id,1 – 8 – 4,adjacent,40190
+2,r002_circular.png,gitqa,gitqa_01,1071,26,26,3,1,,100,node_id,0 – 12 – 1,adjacent,40190
+3,r003_circular.png,generated,01,gen-01,16,17,4,2,8,46,node_id,4 – 11 – 8 – 1,premature,40190
+4,r004_circular.png,gitqa,gitqa_02,1072,26,29,3,4,,115,node_id,0 – 22 – 1,adjacent,40190
+5,r005_circular.png,generated,02,gen-02,22,25,5,4,12,50,node_id,13 – 15 – 10 – 9 – 14,premature,40190
+6,r006_circular.png,gitqa,gitqa_03,1073,26,29,4,4,,4,cycle_backbone,0 – 4 – 12 – 1,premature,40190
+7,r007_circular.png,generated,03,gen-03,15,16,6,2,6,40,node_id,0 – 8 – 11 – 9 – 4 – 1,premature,40190
+8,r008_circular.png,gitqa,gitqa_04,1074,26,28,3,3,,92,node_id,0 – 2 – 1,adjacent,40190
+9,r009_circular.png,generated,04,gen-04,14,15,3,2,6,31,node_id,1 – 9 – 7,adjacent,40190
+10,r010_circular.png,gitqa,gitqa_05,1075,26,28,3,3,,115,node_id,0 – 3 – 2,adjacent,40190
+11,r011_circular.png,generated,05,gen-05,13,16,4,4,10,37,node_id,12 – 3 – 8 – 2,premature,40190
+12,r012_circular.png,gitqa,gitqa_06,1076,26,28,3,3,,99,node_id,0 – 4 – 1,adjacent,40190
+13,r013_circular.png,generated,06,gen-06,19,19,5,1,5,43,node_id,14 – 13 – 16 – 17 – 11,premature,40190
+14,r014_circular.png,gitqa,gitqa_07,1077,26,28,3,3,,52,node_id,0 – 3 – 1,adjacent,40190
+15,r015_circular.png,generated,07,gen-07,20,20,6,1,6,39,node_id,0 – 17 – 13 – 5 – 9 – 8,premature,40190
+16,r016_circular.png,gitqa,gitqa_08,1078,26,26,7,1,,90,node_id,0 – 23 – 20 – 3 – 12 – 11 – 1,premature,40190
+17,r017_circular.png,generated,08,gen-08,16,17,3,2,4,29,node_id,0 – 14 – 10,adjacent,40190
+18,r018_circular.png,gitqa,gitqa_09,1079,26,27,6,2,,0,cycle_backbone,0 – 4 – 3 – 15 – 13 – 1,premature,40190
+19,r019_circular.png,generated,09,gen-09,11,11,4,1,4,12,node_id,6 – 8 – 5 – 2,premature,40190
+20,r020_circular.png,gitqa,gitqa_10,1080,26,27,3,2,,103,node_id,0 – 3 – 1,adjacent,40190
+21,r021_circular.png,generated,10,gen-10,18,21,5,4,11,61,node_id,5 – 11 – 17 – 15 – 10,premature,40190
+22,r022_circular.png,gitqa,gitqa_11,1081,26,26,5,1,,0,cycle_backbone,0 – 4 – 14 – 8 – 1,premature,40190
+23,r023_circular.png,generated,11,gen-11,12,12,6,1,6,8,node_id,0 – 5 – 3 – 2 – 11 – 1,premature,40190
+24,r024_circular.png,gitqa,gitqa_12,1082,26,28,5,3,,4,cycle_backbone,0 – 2 – 24 – 8 – 1,premature,40190
+25,r025_circular.png,generated,12,gen-12,19,20,3,2,5,55,node_id,4 – 7 – 2,adjacent,40190
+26,r026_circular.png,gitqa,gitqa_13,1083,26,29,3,4,,101,node_id,0 – 3 – 1,adjacent,40190
+27,r027_circular.png,generated,13,gen-13,20,23,4,4,10,42,node_id,0 – 17 – 9 – 7,premature,40190
+28,r028_circular.png,gitqa,gitqa_14,1084,26,26,5,1,,95,node_id,0 – 13 – 8 – 25 – 1,premature,40190
+29,r029_circular.png,generated,14,gen-14,15,16,5,2,7,33,node_id,8 – 11 – 14 – 13 – 1,premature,40190
+30,r030_circular.png,gitqa,gitqa_15,1085,26,26,3,1,,106,node_id,0 – 7 – 1,adjacent,40190
+31,r031_circular.png,generated,15,gen-15,19,21,6,3,10,44,node_id,0 – 5 – 11 – 17 – 1 – 4,premature,40190
+32,r032_circular.png,gitqa,gitqa_16,1086,26,26,6,1,,72,node_id,0 – 12 – 17 – 16 – 7 – 1,premature,40190
+33,r033_circular.png,generated,16,gen-16,21,23,3,3,10,54,node_id,1 – 20 – 7,adjacent,40190
+34,r034_circular.png,gitqa,gitqa_17,1087,26,27,4,2,,0,cycle_backbone,0 – 2 – 12 – 1,premature,40190
+35,r035_circular.png,generated,17,gen-17,13,13,4,1,4,20,node_id,11 – 5 – 4 – 1,premature,40190
+36,r036_circular.png,gitqa,gitqa_18,1088,26,29,3,4,,1,cycle_backbone,0 – 4 – 1,adjacent,40190
+37,r037_circular.png,generated,18,gen-18,19,20,5,2,10,34,node_id,16 – 17 – 13 – 7 – 1,premature,40190
+38,r038_circular.png,gitqa,gitqa_19,1089,26,26,8,1,,0,cycle_backbone,0 – 16 – 8 – 22 – 24 – 17 – 15 – 1,premature,40190
+39,r039_circular.png,generated,19,gen-19,17,20,6,4,11,67,node_id,0 – 6 – 4 – 9 – 8 – 5,premature,40190
+40,r040_circular.png,gitqa,gitqa_20,1090,26,29,3,4,,148,node_id,0 – 9 – 3,adjacent,40190
+41,r041_circular.png,generated,20,gen-20,19,21,3,3,10,51,node_id,0 – 6 – 2,adjacent,40190
+42,r042_circular.png,gitqa,gitqa_21,1091,26,27,3,2,,78,node_id,0 – 11 – 2,adjacent,40190
+43,r043_circular.png,generated,21,gen-21,15,18,4,4,9,45,node_id,6 – 10 – 4 – 7,premature,40190
+44,r044_circular.png,gitqa,gitqa_22,1092,26,27,5,2,,96,node_id,0 – 2 – 8 – 15 – 1,premature,40190
+45,r045_circular.png,generated,22,gen-22,17,17,5,1,5,49,node_id,0 – 12 – 15 – 16 – 4,premature,40190
+46,r046_circular.png,gitqa,gitqa_23,1093,26,29,3,4,,107,node_id,0 – 3 – 2,adjacent,40190
+47,r047_circular.png,generated,23,gen-23,17,19,6,3,8,47,node_id,0 – 13 – 3 – 11 – 12 – 8,premature,40190
+48,r048_circular.png,gitqa,gitqa_24,1094,26,29,3,4,,109,node_id,0 – 4 – 1,adjacent,40190
+49,r049_circular.png,generated,24,gen-24,13,16,3,4,7,41,node_id,10 – 9 – 5,adjacent,40190
+50,r050_circular.png,gitqa,gitqa_25,1095,26,27,6,2,,3,cycle_backbone,0 – 2 – 8 – 22 – 12 – 1,premature,40190
+51,r051_circular.png,generated,25,gen-25,21,21,4,1,4,40,node_id,5 – 17 – 11 – 7,premature,40190
+52,r052_circular.png,gitqa,gitqa_26,1096,26,26,5,1,,95,node_id,0 – 13 – 8 – 25 – 1,premature,40190
+53,r053_circular.png,generated,26,gen-26,14,14,5,1,5,15,node_id,11 – 6 – 10 – 7 – 3,premature,40190
+54,r054_circular.png,gitqa,gitqa_27,1097,26,29,3,4,,105,node_id,0 – 23 – 1,adjacent,40190
+55,r055_circular.png,generated,27,gen-27,22,22,6,1,6,29,node_id,0 – 13 – 12 – 11 – 9 – 7,premature,40190
+56,r056_circular.png,gitqa,gitqa_28,1098,26,27,6,2,,0,cycle_backbone,0 – 4 – 3 – 15 – 13 – 1,premature,40190
+57,r057_circular.png,generated,28,gen-28,17,19,3,3,7,56,node_id,14 – 8 – 5,adjacent,40190
+58,r058_circular.png,gitqa,gitqa_29,1099,26,29,4,4,,119,node_id,0 – 2 – 19 – 1,premature,40190
+59,r059_circular.png,generated,29,gen-29,19,20,4,2,6,50,node_id,12 – 11 – 3 – 8,premature,40190
+60,r060_circular.png,gitqa,gitqa_30,1100,27,30,3,4,,109,node_id,0 – 2 – 1,adjacent,40190
+61,r061_circular.png,generated,30,gen-30,21,22,5,2,8,52,node_id,0 – 17 – 2 – 13 – 6,premature,40190
+62,r062_circular.png,gitqa,gitqa_31,1101,27,27,9,1,,107,node_id,0 – 15 – 25 – 17 – 9 – 11 – 4 – 13 – 1,premature,40190
+63,r063_circular.png,generated,31,gen-31,12,13,6,2,6,16,node_id,0 – 9 – 4 – 1 – 3 – 2,premature,40190
+64,r064_circular.png,gitqa,gitqa_32,1102,27,27,6,1,,82,node_id,0 – 12 – 17 – 16 – 7 – 1,premature,40190
+65,r065_circular.png,generated,32,gen-32,22,25,3,4,7,48,node_id,9 – 5 – 3,adjacent,40190
+66,r066_circular.png,gitqa,gitqa_33,1103,27,30,3,4,,118,node_id,0 – 3 – 2,adjacent,40190
+67,r067_circular.png,generated,33,gen-33,12,14,4,3,7,26,node_id,9 – 3 – 7 – 1,premature,40190
+68,r068_circular.png,gitqa,gitqa_34,1104,27,27,8,1,,108,node_id,0 – 26 – 12 – 15 – 22 – 6 – 7 – 1,premature,40190
+69,r069_circular.png,generated,34,gen-34,11,12,5,2,6,24,node_id,1 – 6 – 3 – 7 – 5,premature,40190
+70,r070_circular.png,gitqa,gitqa_35,1105,27,30,3,4,,2,cycle_backbone,0 – 24 – 4,adjacent,40190
+71,r071_circular.png,generated,35,gen-35,20,20,6,1,6,55,node_id,0 – 18 – 3 – 12 – 4 – 8,premature,40190
+72,r072_circular.png,gitqa,gitqa_36,1106,27,28,4,2,,117,node_id,0 – 7 – 11 – 1,premature,40190
+73,r073_circular.png,generated,36,gen-36,19,20,3,2,3,42,node_id,18 – 16 – 11,adjacent,40190
+74,r074_circular.png,gitqa,gitqa_37,1107,27,28,4,2,,2,cycle_backbone,0 – 8 – 15 – 2,premature,40190
+75,r075_circular.png,generated,37,gen-37,18,18,4,1,4,44,node_id,15 – 11 – 3 – 4,premature,40190
+76,r076_circular.png,gitqa,gitqa_38,1108,27,27,13,1,,121,node_id,0 – 13 – 25 – 2 – 18 – 21 – 20 – 10 – 26 – 5 – 15 – 16 – 1,premature,40190
+77,r077_circular.png,generated,38,gen-38,20,20,5,1,5,40,node_id,0 – 3 – 8 – 5 – 1,premature,40190
+78,r078_circular.png,gitqa,gitqa_39,1109,27,27,4,1,,116,node_id,0 – 7 – 11 – 1,premature,40190
+79,r079_circular.png,generated,39,gen-39,17,19,6,3,11,25,node_id,0 – 12 – 5 – 1 – 4 – 2,premature,40190
+80,r080_circular.png,gitqa,gitqa_40,1110,27,27,7,1,,91,node_id,0 – 11 – 24 – 22 – 25 – 20 – 1,premature,40190
+81,r081_circular.png,generated,40,gen-40,11,12,3,2,3,20,node_id,3 – 10 – 4,adjacent,40190
+82,r082_circular.png,gitqa,gitqa_41,1111,27,29,5,3,,1,cycle_backbone,0 – 4 – 14 – 23 – 1,premature,40190
+83,r083_circular.png,generated,41,gen-41,18,19,4,2,4,58,node_id,0 – 8 – 1 – 6,premature,40190
+84,r084_circular.png,gitqa,gitqa_42,1112,27,28,6,2,,111,node_id,0 – 15 – 25 – 20 – 26 – 2,premature,40190
+85,r085_circular.png,generated,42,gen-42,18,21,5,4,10,52,node_id,0 – 9 – 13 – 2 – 5,premature,40190
+86,r086_circular.png,gitqa,gitqa_43,1113,27,28,5,2,,0,cycle_backbone,0 – 6 – 14 – 13 – 2,premature,40190
+87,r087_circular.png,generated,43,gen-43,20,20,6,1,6,45,node_id,2 – 19 – 6 – 15 – 12 – 8,premature,40190
+88,r088_circular.png,gitqa,gitqa_44,1114,27,29,3,3,,3,cycle_backbone,0 – 17 – 1,adjacent,40190
+89,r089_circular.png,generated,44,gen-44,15,16,3,2,7,47,node_id,0 – 12 – 8,adjacent,40190
+90,r090_circular.png,gitqa,gitqa_45,1115,27,30,3,4,,99,node_id,0 – 4 – 2,adjacent,40190
+91,r091_circular.png,generated,45,gen-45,16,17,4,2,7,33,node_id,3 – 11 – 1 – 8,premature,40190
+92,r092_circular.png,gitqa,gitqa_46,1116,27,30,3,4,,89,node_id,0 – 5 – 2,adjacent,40190
+93,r093_circular.png,generated,46,gen-46,14,14,5,1,5,15,node_id,0 – 5 – 6 – 3 – 2,premature,40190
+94,r094_circular.png,gitqa,gitqa_47,1117,27,27,10,1,,106,node_id,0 – 17 – 12 – 15 – 22 – 6 – 21 – 24 – 20 – 1,premature,40190
+95,r095_circular.png,generated,47,gen-47,19,21,6,3,10,47,node_id,1 – 4 – 12 – 15 – 2 – 3,premature,40190
+96,r096_circular.png,gitqa,gitqa_48,1118,27,29,4,3,,119,node_id,0 – 7 – 11 – 1,premature,40190
+97,r097_circular.png,generated,48,gen-48,19,19,3,1,3,42,node_id,2 – 15 – 4,adjacent,40190
+98,r098_circular.png,gitqa,gitqa_49,1119,27,27,9,1,,0,cycle_backbone,0 – 24 – 16 – 3 – 26 – 14 – 13 – 25 – 1,premature,40190
+99,r099_circular.png,generated,49,gen-49,19,21,4,3,10,41,node_id,13 – 17 – 3 – 11,premature,40190
+100,r100_circular.png,gitqa,gitqa_50,1120,27,27,7,1,,0,cycle_backbone,0 – 6 – 26 – 22 – 8 – 15 – 1,premature,40290
+101,r101_circular.png,generated,50,gen-50,15,16,5,2,5,31,node_id,0 – 12 – 9 – 2 – 4,premature,40290
+102,r102_circular.png,gitqa,gitqa_51,1121,27,27,11,1,,104,node_id,0 – 16 – 13 – 24 – 17 – 19 – 14 – 3 – 21 – 9 – 1,premature,40290
+103,r103_circular.png,generated,51,gen-51,18,21,6,4,10,46,node_id,0 – 13 – 12 – 3 – 8 – 4,premature,40290
+104,r104_circular.png,gitqa,gitqa_52,1122,27,27,10,1,,81,node_id,0 – 2 – 5 – 12 – 25 – 6 – 26 – 14 – 18 – 1,premature,40290
+105,r105_circular.png,generated,52,gen-52,17,19,3,3,9,43,node_id,8 – 16 – 11,adjacent,40290
+106,r106_circular.png,gitqa,gitqa_53,1123,27,28,3,2,,104,node_id,0 – 3 – 1,adjacent,40290
+107,r107_circular.png,generated,53,gen-53,19,20,4,2,7,45,node_id,14 – 10 – 12 – 7,premature,40290
+108,r108_circular.png,gitqa,gitqa_54,1124,27,29,3,3,,114,node_id,0 – 4 – 3,adjacent,40290
+109,r109_circular.png,generated,54,gen-54,16,18,5,3,11,51,node_id,1 – 14 – 3 – 5 – 9,premature,40290
+110,r110_circular.png,gitqa,gitqa_55,1125,27,27,4,1,,0,cycle_backbone,0 – 15 – 6 – 1,premature,40290
+111,r111_circular.png,generated,55,gen-55,13,15,6,3,8,35,node_id,11 – 6 – 5 – 1 – 7 – 2,premature,40290
+112,r112_circular.png,gitqa,gitqa_56,1126,27,29,5,3,,0,cycle_backbone,0 – 3 – 22 – 10 – 2,premature,40290
+113,r113_circular.png,generated,56,gen-56,20,20,3,1,3,54,node_id,0 – 17 – 1,adjacent,40290
+114,r114_circular.png,gitqa,gitqa_57,1127,27,27,7,1,,91,node_id,0 – 4 – 26 – 18 – 15 – 13 – 1,premature,40290
+115,r115_circular.png,generated,57,gen-57,16,17,4,2,4,25,node_id,6 – 14 – 7 – 9,premature,40290
+116,r116_circular.png,gitqa,gitqa_58,1128,27,28,7,2,,80,node_id,0 – 23 – 24 – 20 – 17 – 14 – 1,premature,40290
+117,r117_circular.png,generated,58,gen-58,15,18,5,4,11,32,node_id,0 – 8 – 12 – 5 – 3,premature,40290
+118,r118_circular.png,gitqa,gitqa_59,1129,27,29,4,3,,2,cycle_backbone,0 – 4 – 6 – 1,premature,40290
+119,r119_circular.png,generated,59,gen-59,20,21,6,2,6,42,node_id,0 – 15 – 3 – 5 – 1 – 9,premature,40290
+120,r120_circular.png,gitqa,gitqa_60,1130,27,30,4,4,,10,cycle_backbone,0 – 8 – 15 – 2,premature,40290
+121,r121_circular.png,generated,60,gen-60,12,15,3,4,6,35,node_id,9 – 10 – 3,adjacent,40290
+122,r122_circular.png,gitqa,gitqa_61,1131,27,27,4,1,,96,node_id,0 – 13 – 8 – 1,premature,40290
+123,r123_circular.png,generated,61,gen-61,12,13,4,2,6,20,node_id,9 – 7 – 10 – 2,premature,40290
+124,r124_circular.png,gitqa,gitqa_62,1132,27,29,4,3,,128,node_id,0 – 10 – 6 – 2,premature,40290
+125,r125_circular.png,generated,62,gen-62,16,19,5,4,10,33,node_id,2 – 8 – 5 – 3 – 4,premature,40290
+126,r126_circular.png,gitqa,gitqa_63,1133,27,29,3,3,,111,node_id,0 – 2 – 1,adjacent,40290
+127,r127_circular.png,generated,63,gen-63,20,21,6,2,6,51,node_id,0 – 19 – 7 – 18 – 6 – 14,premature,40290
+128,r128_circular.png,gitqa,gitqa_64,1134,27,27,4,1,,0,cycle_backbone,0 – 13 – 8 – 1,premature,40290
+129,r129_circular.png,generated,64,gen-64,18,20,3,3,8,65,node_id,1 – 11 – 6,adjacent,40290
+130,r130_circular.png,gitqa,gitqa_65,1135,27,27,5,1,,0,cycle_backbone,0 – 24 – 18 – 6 – 1,premature,40290
+131,r131_circular.png,generated,65,gen-65,12,13,4,2,6,20,node_id,0 – 6 – 7 – 4,premature,40290
+132,r132_circular.png,gitqa,gitqa_66,1136,27,27,5,1,,0,cycle_backbone,0 – 24 – 18 – 6 – 1,premature,40290
+133,r133_circular.png,generated,66,gen-66,20,20,5,1,5,46,node_id,17 – 14 – 2 – 4 – 12,premature,40290
+134,r134_circular.png,gitqa,gitqa_67,1137,27,29,4,3,,2,cycle_backbone,0 – 3 – 24 – 2,premature,40290
+135,r135_circular.png,generated,67,gen-67,13,14,6,2,10,22,node_id,0 – 8 – 7 – 12 – 10 – 3,premature,40290
+136,r136_circular.png,gitqa,gitqa_68,1138,27,27,4,1,,116,node_id,0 – 7 – 11 – 1,premature,40290
+137,r137_circular.png,generated,68,gen-68,13,14,3,2,6,15,node_id,1 – 5 – 2,adjacent,40290
+138,r138_circular.png,gitqa,gitqa_69,1139,27,29,5,3,,2,cycle_backbone,0 – 2 – 7 – 8 – 1,premature,40290
+139,r139_circular.png,generated,69,gen-69,21,22,4,2,5,44,node_id,3 – 12 – 9 – 10,premature,40290
+140,r140_circular.png,gitqa,gitqa_70,1140,27,28,3,2,,110,node_id,0 – 6 – 2,adjacent,40290
+141,r141_circular.png,generated,70,gen-70,22,22,5,1,5,48,node_id,1 – 7 – 4 – 5 – 3,premature,40290
+142,r142_circular.png,gitqa,gitqa_71,1141,27,27,9,1,,107,node_id,0 – 15 – 25 – 17 – 9 – 11 – 4 – 13 – 1,premature,40290
+143,r143_circular.png,generated,71,gen-71,15,17,6,3,10,48,node_id,0 – 4 – 11 – 1 – 8 – 3,premature,40290
+144,r144_circular.png,gitqa,gitqa_72,1142,27,27,3,1,,0,cycle_backbone,0 – 19 – 1,adjacent,40290
+145,r145_circular.png,generated,72,gen-72,15,16,3,2,5,37,node_id,2 – 8 – 7,adjacent,40290
+146,r146_circular.png,gitqa,gitqa_73,1143,27,28,5,2,,100,node_id,0 – 2 – 8 – 15 – 1,premature,40290
+147,r147_circular.png,generated,73,gen-73,22,23,4,2,6,50,node_id,1 – 20 – 14 – 11,premature,40290
+148,r148_circular.png,gitqa,gitqa_74,1144,27,30,5,4,,118,node_id,0 – 3 – 22 – 10 – 2,premature,40290
+149,r149_circular.png,generated,74,gen-74,17,18,5,2,8,23,node_id,13 – 11 – 1 – 4 – 10,premature,40290
+150,r150_circular.png,gitqa,gitqa_75,1145,27,30,3,4,,95,node_id,0 – 3 – 2,adjacent,40290
+151,r151_circular.png,generated,75,gen-75,11,12,6,2,6,13,node_id,0 – 10 – 1 – 8 – 2 – 9,premature,40290
+152,r152_circular.png,gitqa,gitqa_76,1146,27,28,3,2,,89,node_id,0 – 24 – 1,adjacent,40290
+153,r153_circular.png,generated,76,gen-76,16,16,3,1,3,46,node_id,5 – 14 – 7,adjacent,40290
+154,r154_circular.png,gitqa,gitqa_77,1147,27,30,5,4,,118,node_id,0 – 3 – 22 – 10 – 2,premature,40290
+155,r155_circular.png,generated,77,gen-77,11,13,4,3,6,22,node_id,0 – 9 – 3 – 8,premature,40290
+156,r156_circular.png,gitqa,gitqa_78,1148,27,28,6,2,,125,node_id,0 – 3 – 24 – 12 – 21 – 2,premature,40290
+157,r157_circular.png,generated,78,gen-78,15,16,5,2,8,37,node_id,1 – 13 – 5 – 4 – 9,premature,40290
+158,r158_circular.png,gitqa,gitqa_79,1149,27,29,3,3,,3,cycle_backbone,0 – 10 – 2,adjacent,40290
+159,r159_circular.png,generated,79,gen-79,13,13,6,1,6,13,node_id,11 – 6 – 7 – 8 – 4 – 3,premature,40290
+160,r160_circular.png,gitqa,gitqa_80,1150,27,29,4,3,,100,node_id,0 – 4 – 5 – 3,premature,40290
+161,r161_circular.png,generated,80,gen-80,11,14,3,4,10,18,node_id,8 – 6 – 5,adjacent,40290
+162,r162_circular.png,gitqa,gitqa_81,1151,27,27,7,1,,119,node_id,0 – 26 – 11 – 16 – 6 – 19 – 1,premature,40290
+163,r163_circular.png,generated,81,gen-81,15,16,4,2,8,31,node_id,6 – 10 – 2 – 3,premature,40290
+164,r164_circular.png,gitqa,gitqa_82,1152,27,30,3,4,,119,node_id,0 – 15 – 3,adjacent,40290
+165,r165_circular.png,generated,82,gen-82,18,18,5,1,5,27,node_id,0 – 15 – 11 – 10 – 3,premature,40290
+166,r166_circular.png,gitqa,gitqa_83,1153,27,30,3,4,,114,node_id,0 – 3 – 1,adjacent,40290
+167,r167_circular.png,generated,83,gen-83,14,15,6,2,6,19,node_id,0 – 7 – 8 – 13 – 3 – 6,premature,40290
+168,r168_circular.png,gitqa,gitqa_84,1154,27,27,5,1,,58,node_id,0 – 2 – 3 – 5 – 1,premature,40290
+169,r169_circular.png,generated,84,gen-84,16,18,3,3,8,55,node_id,8 – 13 – 6,adjacent,40290
+170,r170_circular.png,gitqa,gitqa_85,1155,27,28,6,2,,78,node_id,0 – 25 – 16 – 4 – 8 – 2,premature,40290
+171,r171_circular.png,generated,85,gen-85,14,14,4,1,4,13,node_id,1 – 6 – 7 – 3,premature,40290
+172,r172_circular.png,gitqa,gitqa_86,1156,27,28,3,2,,110,node_id,0 – 6 – 2,adjacent,40290
+173,r173_circular.png,generated,86,gen-86,13,15,5,3,7,16,node_id,12 – 5 – 11 – 1 – 4,premature,40290
+174,r174_circular.png,gitqa,gitqa_87,1157,27,29,3,3,,101,node_id,0 – 7 – 2,adjacent,40290
+175,r175_circular.png,generated,87,gen-87,21,22,6,2,6,48,node_id,2 – 7 – 9 – 6 – 15 – 3,premature,40290
+176,r176_circular.png,gitqa,gitqa_88,1158,27,29,4,3,,118,node_id,0 – 3 – 14 – 1,premature,40290
+177,r177_circular.png,generated,88,gen-88,20,22,3,3,5,56,node_id,19 – 9 – 4,adjacent,40290
+178,r178_circular.png,gitqa,gitqa_89,1159,27,30,4,4,,6,cycle_backbone,0 – 7 – 26 – 1,premature,40290
+179,r179_circular.png,generated,89,gen-89,21,22,4,2,4,34,node_id,6 – 11 – 14 – 5,premature,40290
+180,r180_circular.png,gitqa,gitqa_90,1160,27,27,3,1,,88,node_id,0 – 24 – 1,adjacent,40290
+181,r181_circular.png,generated,90,gen-90,18,19,5,2,7,23,node_id,1 – 8 – 13 – 15 – 3,premature,40290
+182,r182_circular.png,gitqa,gitqa_91,1161,27,27,3,1,,126,node_id,0 – 20 – 1,adjacent,40290
+183,r183_circular.png,generated,91,gen-91,13,14,6,2,8,36,node_id,0 – 5 – 10 – 12 – 11 – 4,premature,40290
+184,r184_circular.png,gitqa,gitqa_92,1162,27,28,3,2,,105,node_id,0 – 2 – 1,adjacent,40290
+185,r185_circular.png,generated,92,gen-92,19,22,3,4,14,43,node_id,8 – 14 – 12,adjacent,40290
+186,r186_circular.png,gitqa,gitqa_93,1163,27,30,3,4,,90,node_id,0 – 4 – 1,adjacent,40290
+187,r187_circular.png,generated,93,gen-93,16,16,4,1,4,47,node_id,1 – 10 – 8 – 9,premature,40290
+188,r188_circular.png,gitqa,gitqa_94,1164,27,30,3,4,,0,cycle_backbone,0 – 14 – 3,adjacent,40290
+189,r189_circular.png,generated,94,gen-94,13,15,5,3,8,17,node_id,0 – 7 – 6 – 9 – 5,premature,40290
+190,r190_circular.png,gitqa,gitqa_95,1165,27,29,5,3,,76,node_id,0 – 15 – 10 – 11 – 3,premature,40290
+191,r191_circular.png,generated,95,gen-95,22,23,6,2,9,46,node_id,1 – 13 – 3 – 11 – 10 – 5,premature,40290
+192,r192_circular.png,gitqa,gitqa_96,1166,27,29,5,3,,4,cycle_backbone,0 – 4 – 25 – 16 – 1,premature,40290
+193,r193_circular.png,generated,96,gen-96,16,19,3,4,9,54,node_id,10 – 8 – 5,adjacent,40290
+194,r194_circular.png,gitqa,gitqa_97,1167,27,29,5,3,,76,node_id,0 – 15 – 10 – 11 – 3,premature,40290
+195,r195_circular.png,generated,97,gen-97,20,20,4,1,4,38,node_id,2 – 14 – 11 – 7,premature,40290
+196,r196_circular.png,gitqa,gitqa_98,1168,27,27,3,1,,108,node_id,0 – 23 – 1,adjacent,40290
+197,r197_circular.png,generated,98,gen-98,13,14,5,2,8,28,node_id,0 – 11 – 1 – 5 – 9,premature,40290
+198,r198_circular.png,gitqa,gitqa_99,1169,27,30,5,4,,10,cycle_backbone,0 – 4 – 25 – 16 – 1,premature,40290
+199,r199_circular.png,generated,99,gen-99,11,12,6,2,6,17,node_id,0 – 10 – 1 – 2 – 6 – 5,premature,40290
+200,r200_circular.png,gitqa,gitqa_100,1170,27,27,10,1,,97,node_id,0 – 3 – 26 – 5 – 22 – 23 – 12 – 7 – 6 – 1,premature,40390
+201,r201_circular.png,generated,100,gen-100,17,17,3,1,3,39,node_id,10 – 16 – 2,adjacent,40390
+202,r202_circular.png,gitqa,gitqa_101,1171,27,27,7,1,,142,node_id,0 – 13 – 4 – 26 – 21 – 8 – 1,premature,40390
+203,r203_circular.png,generated,101,gen-101,14,17,4,4,8,44,node_id,9 – 13 – 11 – 2,premature,40390
+204,r204_circular.png,gitqa,gitqa_102,1172,27,28,7,2,,1,cycle_backbone,0 – 23 – 24 – 20 – 17 – 14 – 1,premature,40390
+205,r205_circular.png,generated,102,gen-102,18,21,5,4,10,60,node_id,11 – 15 – 10 – 1 – 6,premature,40390
+206,r206_circular.png,gitqa,gitqa_103,1173,27,30,4,4,,12,cycle_backbone,0 – 4 – 6 – 1,premature,40390
+207,r207_circular.png,generated,103,gen-103,19,20,6,2,7,48,node_id,4 – 16 – 12 – 14 – 9 – 11,premature,40390
+208,r208_circular.png,gitqa,gitqa_104,1174,27,27,5,1,,0,cycle_backbone,0 – 20 – 26 – 15 – 1,premature,40390
+209,r209_circular.png,generated,104,gen-104,22,24,3,3,7,48,node_id,21 – 10 – 8,adjacent,40390
+210,r210_circular.png,gitqa,gitqa_105,1175,27,27,6,1,,110,node_id,0 – 6 – 19 – 4 – 3 – 1,premature,40390
+211,r211_circular.png,generated,105,gen-105,17,18,4,2,8,46,node_id,5 – 12 – 1 – 8,premature,40390
+212,r212_circular.png,gitqa,gitqa_106,1176,27,29,5,3,,4,cycle_backbone,0 – 4 – 25 – 16 – 1,premature,40390
+213,r213_circular.png,generated,106,gen-106,22,23,5,2,7,48,node_id,10 – 11 – 14 – 9 – 1,premature,40390
+214,r214_circular.png,gitqa,gitqa_107,1177,27,29,3,3,,102,node_id,0 – 21 – 3,adjacent,40390
+215,r215_circular.png,generated,107,gen-107,14,14,6,1,6,32,node_id,12 – 7 – 10 – 2 – 8 – 1,premature,40390
+216,r216_circular.png,gitqa,gitqa_108,1178,27,27,4,1,,113,node_id,0 – 24 – 22 – 1,premature,40390
+217,r217_circular.png,generated,108,gen-108,21,22,3,2,10,51,node_id,1 – 13 – 3,adjacent,40390
+218,r218_circular.png,gitqa,gitqa_109,1179,27,29,3,3,,0,cycle_backbone,0 – 4 – 3,adjacent,40390
+219,r219_circular.png,generated,109,gen-109,21,22,4,2,8,32,node_id,4 – 8 – 7 – 5,premature,40390
+220,r220_circular.png,gitqa,gitqa_110,1180,27,29,4,3,,2,cycle_backbone,0 – 2 – 22 – 1,premature,40390
+221,r221_circular.png,generated,110,gen-110,16,19,5,4,10,25,node_id,0 – 9 – 12 – 15 – 2,premature,40390
+222,r222_circular.png,gitqa,gitqa_111,1181,27,29,3,3,,107,node_id,0 – 12 – 1,adjacent,40390
+223,r223_circular.png,generated,111,gen-111,14,15,6,2,10,29,node_id,0 – 2 – 5 – 7 – 4 – 1,premature,40390
+224,r224_circular.png,gitqa,gitqa_112,1182,27,28,6,2,,86,node_id,0 – 12 – 17 – 16 – 7 – 1,premature,40390
+225,r225_circular.png,generated,112,gen-112,15,15,3,1,3,16,node_id,14 – 8 – 1,adjacent,40390
+226,r226_circular.png,gitqa,gitqa_113,1183,27,29,6,3,,4,cycle_backbone,0 – 6 – 7 – 24 – 10 – 3,premature,40390
+227,r227_circular.png,generated,113,gen-113,17,17,4,1,4,39,node_id,0 – 16 – 5 – 13,premature,40390
+228,r228_circular.png,gitqa,gitqa_114,1184,27,27,7,1,,0,cycle_backbone,0 – 16 – 22 – 2 – 11 – 15 – 1,premature,40390
+229,r229_circular.png,generated,114,gen-114,13,15,5,3,8,27,node_id,0 – 11 – 1 – 4 – 9,premature,40390
+230,r230_circular.png,gitqa,gitqa_115,1185,27,27,6,1,,0,cycle_backbone,0 – 2 – 11 – 17 – 20 – 1,premature,40390
+231,r231_circular.png,generated,115,gen-115,20,21,6,2,6,49,node_id,12 – 14 – 2 – 19 – 6 – 9,premature,40390
+232,r232_circular.png,gitqa,gitqa_116,1186,27,27,8,1,,74,node_id,0 – 24 – 19 – 13 – 12 – 18 – 4 – 1,premature,40390
+233,r233_circular.png,generated,116,gen-116,11,12,3,2,4,13,node_id,0 – 6 – 4,adjacent,40390
+234,r234_circular.png,gitqa,gitqa_117,1187,27,30,3,4,,4,cycle_backbone,0 – 4 – 3,adjacent,40390
+235,r235_circular.png,generated,117,gen-117,16,17,4,2,8,27,node_id,8 – 11 – 12 – 7,premature,40390
+236,r236_circular.png,gitqa,gitqa_118,1188,27,27,9,1,,0,cycle_backbone,0 – 24 – 16 – 3 – 26 – 14 – 13 – 25 – 1,premature,40390
+237,r237_circular.png,generated,118,gen-118,16,18,5,3,9,33,node_id,0 – 14 – 12 – 1 – 10,premature,40390
+238,r238_circular.png,gitqa,gitqa_119,1189,27,30,3,4,,122,node_id,0 – 6 – 2,adjacent,40390
+239,r239_circular.png,generated,119,gen-119,12,14,6,3,10,24,node_id,0 – 10 – 4 – 11 – 6 – 8,premature,40390
+240,r240_circular.png,gitqa,gitqa_120,1190,27,28,5,2,,121,node_id,0 – 2 – 6 – 19 – 1,premature,40390
+241,r241_circular.png,generated,120,gen-120,16,19,3,4,8,49,node_id,13 – 10 – 6,adjacent,40390
+242,r242_circular.png,gitqa,gitqa_121,1191,27,27,8,1,,99,node_id,0 – 17 – 7 – 25 – 20 – 8 – 15 – 1,premature,40390
+243,r243_circular.png,generated,121,gen-121,19,19,4,1,4,44,node_id,0 – 6 – 8 – 2,premature,40390
+244,r244_circular.png,gitqa,gitqa_122,1192,27,29,3,3,,111,node_id,0 – 26 – 2,adjacent,40390
+245,r245_circular.png,generated,122,gen-122,17,17,5,1,5,37,node_id,0 – 12 – 15 – 9 – 10,premature,40390
+246,r246_circular.png,gitqa,gitqa_123,1193,27,29,4,3,,8,cycle_backbone,0 – 4 – 6 – 1,premature,40390
+247,r247_circular.png,generated,123,gen-123,19,21,6,3,10,47,node_id,17 – 2 – 10 – 13 – 8 – 1,premature,40390
+248,r248_circular.png,gitqa,gitqa_124,1194,27,29,5,3,,76,node_id,0 – 15 – 10 – 11 – 3,premature,40390
+249,r249_circular.png,generated,124,gen-124,19,21,3,3,5,57,node_id,11 – 7 – 3,adjacent,40390
+250,r250_circular.png,gitqa,gitqa_125,1195,27,30,3,4,,72,node_id,0 – 5 – 1,adjacent,40390
+251,r251_circular.png,generated,125,gen-125,13,16,4,4,6,28,node_id,0 – 6 – 9 – 1,premature,40390
+252,r252_circular.png,gitqa,gitqa_126,1196,27,27,3,1,,102,node_id,0 – 12 – 1,adjacent,40390
+253,r253_circular.png,generated,126,gen-126,19,20,5,2,7,33,node_id,9 – 18 – 14 – 5 – 6,premature,40390
+254,r254_circular.png,gitqa,gitqa_127,1197,27,28,7,2,,94,node_id,0 – 2 – 19 – 14 – 25 – 3 – 1,premature,40390
+255,r255_circular.png,generated,127,gen-127,11,12,6,2,6,18,node_id,0 – 9 – 7 – 5 – 1 – 2,premature,40390
+256,r256_circular.png,gitqa,gitqa_128,1198,27,29,3,3,,87,node_id,0 – 11 – 2,adjacent,40390
+257,r257_circular.png,generated,128,gen-128,22,23,3,2,4,44,node_id,21 – 9 – 7,adjacent,40390
+258,r258_circular.png,gitqa,gitqa_129,1199,27,30,3,4,,2,cycle_backbone,0 – 4 – 1,adjacent,40390
+259,r259_circular.png,generated,129,gen-129,13,15,4,3,7,38,node_id,0 – 12 – 9 – 3,premature,40390
+260,r260_circular.png,gitqa,gitqa_130,1200,28,29,6,2,,1,cycle_backbone,0 – 2 – 11 – 26 – 19 – 1,premature,40390
+261,r261_circular.png,generated,130,gen-130,18,19,5,2,7,48,node_id,0 – 16 – 2 – 9 – 12,premature,40390
+262,r262_circular.png,gitqa,gitqa_131,1201,28,31,4,4,,3,cycle_backbone,0 – 4 – 27 – 1,premature,40390
+263,r263_circular.png,generated,131,gen-131,21,23,6,3,11,53,node_id,0 – 20 – 4 – 18 – 6 – 3,premature,40390
+264,r264_circular.png,gitqa,gitqa_132,1202,28,30,3,3,,118,node_id,0 – 7 – 2,adjacent,40390
+265,r265_circular.png,generated,132,gen-132,15,15,3,1,3,26,node_id,0 – 10 – 8,adjacent,40390
+266,r266_circular.png,gitqa,gitqa_133,1203,28,31,3,4,,138,node_id,0 – 10 – 3,adjacent,40390
+267,r267_circular.png,generated,133,gen-133,17,18,4,2,7,36,node_id,3 – 9 – 14 – 2,premature,40390
+268,r268_circular.png,gitqa,gitqa_134,1204,28,30,3,3,,127,node_id,0 – 2 – 1,adjacent,40390
+269,r269_circular.png,generated,134,gen-134,22,24,5,3,8,48,node_id,3 – 20 – 9 – 12 – 16,premature,40390
+270,r270_circular.png,gitqa,gitqa_135,1205,28,29,3,2,,88,node_id,0 – 8 – 2,adjacent,40390
+271,r271_circular.png,generated,135,gen-135,19,20,6,2,10,56,node_id,0 – 8 – 1 – 9 – 7 – 2,premature,40390
+272,r272_circular.png,gitqa,gitqa_136,1206,28,28,6,1,,0,cycle_backbone,0 – 17 – 23 – 15 – 25 – 1,premature,40390
+273,r273_circular.png,generated,136,gen-136,20,20,3,1,3,55,node_id,4 – 17 – 13,adjacent,40390
+274,r274_circular.png,gitqa,gitqa_137,1207,28,29,6,2,,78,node_id,0 – 25 – 16 – 4 – 8 – 2,premature,40390
+275,r275_circular.png,generated,137,gen-137,17,18,4,2,7,45,node_id,1 – 14 – 5 – 7,premature,40390
+276,r276_circular.png,gitqa,gitqa_138,1208,28,31,3,4,,152,node_id,0 – 4 – 1,adjacent,40390
+277,r277_circular.png,generated,138,gen-138,14,15,5,2,8,22,node_id,0 – 8 – 4 – 1 – 2,premature,40390
+278,r278_circular.png,gitqa,gitqa_139,1209,28,28,3,1,,115,node_id,0 – 23 – 1,adjacent,40390
+279,r279_circular.png,generated,139,gen-139,11,13,6,3,10,19,node_id,0 – 6 – 2 – 9 – 3 – 1,premature,40390
+280,r280_circular.png,gitqa,gitqa_140,1210,28,30,3,3,,1,cycle_backbone,0 – 4 – 3,adjacent,40390
+281,r281_circular.png,generated,140,gen-140,14,14,3,1,3,25,node_id,2 – 7 – 4,adjacent,40390
+282,r282_circular.png,gitqa,gitqa_141,1211,28,31,5,4,,171,node_id,0 – 19 – 6 – 20 – 2,premature,40390
+283,r283_circular.png,generated,141,gen-141,19,21,4,3,6,44,node_id,2 – 14 – 11 – 8,premature,40390
+284,r284_circular.png,gitqa,gitqa_142,1212,28,28,6,1,,131,node_id,0 – 16 – 14 – 27 – 15 – 1,premature,40390
+285,r285_circular.png,generated,142,gen-142,11,11,5,1,5,15,node_id,0 – 9 – 2 – 7 – 3,premature,40390
+286,r286_circular.png,gitqa,gitqa_143,1213,28,28,4,1,,82,node_id,0 – 7 – 26 – 1,premature,40390
+287,r287_circular.png,generated,143,gen-143,14,17,6,4,12,46,node_id,1 – 13 – 6 – 10 – 4 – 9,premature,40390
+288,r288_circular.png,gitqa,gitqa_144,1214,28,29,3,2,,121,node_id,0 – 2 – 1,adjacent,40390
+289,r289_circular.png,generated,144,gen-144,20,22,3,3,4,56,node_id,1 – 5 – 2,adjacent,40390
+290,r290_circular.png,gitqa,gitqa_145,1215,28,29,7,2,,1,cycle_backbone,0 – 2 – 22 – 21 – 10 – 14 – 1,premature,40390
+291,r291_circular.png,generated,145,gen-145,22,25,4,4,9,50,node_id,0 – 4 – 12 – 2,premature,40390
+292,r292_circular.png,gitqa,gitqa_146,1216,28,29,4,2,,0,cycle_backbone,0 – 20 – 23 – 2,premature,40390
+293,r293_circular.png,generated,146,gen-146,14,15,5,2,9,41,node_id,2 – 10 – 6 – 13 – 5,premature,40390
+294,r294_circular.png,gitqa,gitqa_147,1217,28,29,3,2,,102,node_id,0 – 27 – 1,adjacent,40390
+295,r295_circular.png,generated,147,gen-147,13,13,6,1,6,17,node_id,5 – 9 – 2 – 12 – 11 – 3,premature,40390
+296,r296_circular.png,gitqa,gitqa_148,1218,28,30,3,3,,1,cycle_backbone,0 – 4 – 3,adjacent,40390
+297,r297_circular.png,generated,148,gen-148,19,21,3,3,6,47,node_id,13 – 6 – 4,adjacent,40390
+298,r298_circular.png,gitqa,gitqa_149,1219,28,30,6,3,,114,node_id,0 – 2 – 17 – 23 – 4 – 1,premature,40390
+299,r299_circular.png,generated,149,gen-149,14,17,4,4,9,31,node_id,0 – 5 – 8 – 2,premature,40390
+300,r300_circular.png,gitqa,gitqa_150,1220,28,29,6,2,,115,node_id,0 – 26 – 17 – 15 – 19 – 2,premature,40490
+301,r301_circular.png,generated,150,gen-150,12,15,5,4,9,24,node_id,0 – 8 – 3 – 2 – 7,premature,40490
+302,r302_circular.png,gitqa,gitqa_151,1221,28,28,7,1,,0,cycle_backbone,0 – 6 – 7 – 17 – 12 – 22 – 1,premature,40490
+303,r303_circular.png,generated,151,gen-151,12,14,6,3,10,28,node_id,0 – 5 – 1 – 10 – 2 – 4,premature,40490
+304,r304_circular.png,gitqa,gitqa_152,1222,28,28,8,1,,101,node_id,0 – 27 – 23 – 20 – 3 – 12 – 11 – 1,premature,40490
+305,r305_circular.png,generated,152,gen-152,17,19,3,3,8,38,node_id,0 – 10 – 7,adjacent,40490
+306,r306_circular.png,gitqa,gitqa_153,1223,28,28,9,1,,110,node_id,0 – 6 – 27 – 26 – 23 – 21 – 18 – 9 – 1,premature,40490
+307,r307_circular.png,generated,153,gen-153,13,15,4,3,8,44,node_id,0 – 5 – 11 – 4,premature,40490
+308,r308_circular.png,gitqa,gitqa_154,1224,28,29,6,2,,5,cycle_backbone,0 – 2 – 4 – 20 – 12 – 1,premature,40490
+309,r309_circular.png,generated,154,gen-154,13,16,5,4,9,34,node_id,0 – 5 – 1 – 8 – 2,premature,40490
+310,r310_circular.png,gitqa,gitqa_155,1225,28,28,6,1,,85,node_id,0 – 13 – 25 – 20 – 7 – 1,premature,40490
+311,r311_circular.png,generated,155,gen-155,13,13,6,1,6,11,node_id,5 – 7 – 2 – 10 – 9 – 6,premature,40490
+312,r312_circular.png,gitqa,gitqa_156,1226,28,30,5,3,,110,node_id,0 – 19 – 11 – 8 – 3,premature,40490
+313,r313_circular.png,generated,156,gen-156,15,18,3,4,7,34,node_id,4 – 6 – 5,adjacent,40490
+314,r314_circular.png,gitqa,gitqa_157,1227,28,31,4,4,,111,node_id,0 – 27 – 20 – 3,premature,40490
+315,r315_circular.png,generated,157,gen-157,11,13,4,3,8,18,node_id,0 – 7 – 8 – 1,premature,40490
+316,r316_circular.png,gitqa,gitqa_158,1228,28,29,6,2,,102,node_id,0 – 13 – 8 – 25 – 26 – 2,premature,40490
+317,r317_circular.png,generated,158,gen-158,14,15,5,2,6,31,node_id,0 – 7 – 1 – 3 – 6,premature,40490
+318,r318_circular.png,gitqa,gitqa_159,1229,28,28,6,1,,0,cycle_backbone,0 – 2 – 4 – 20 – 12 – 1,premature,40490
+319,r319_circular.png,generated,159,gen-159,19,20,6,2,8,48,node_id,0 – 17 – 15 – 2 – 18 – 16,premature,40490
+320,r320_circular.png,gitqa,gitqa_160,1230,28,29,5,2,,137,node_id,0 – 27 – 17 – 8 – 1,premature,40490
+321,r321_circular.png,generated,160,gen-160,17,17,3,1,3,30,node_id,1 – 16 – 5,adjacent,40490
+322,r322_circular.png,gitqa,gitqa_161,1231,28,29,6,2,,149,node_id,0 – 21 – 14 – 11 – 20 – 1,premature,40490
+323,r323_circular.png,generated,161,gen-161,21,24,4,4,8,42,node_id,17 – 18 – 9 – 11,premature,40490
+324,r324_circular.png,gitqa,gitqa_162,1232,28,28,11,1,,81,node_id,0 – 3 – 9 – 27 – 23 – 25 – 8 – 4 – 2 – 19 – 1,premature,40490
+325,r325_circular.png,generated,162,gen-162,14,15,5,2,8,18,node_id,2 – 11 – 12 – 9 – 6,premature,40490
+326,r326_circular.png,gitqa,gitqa_163,1233,28,30,3,3,,1,cycle_backbone,0 – 26 – 2,adjacent,40490
+327,r327_circular.png,generated,163,gen-163,17,19,6,3,10,50,node_id,0 – 7 – 3 – 8 – 10 – 6,premature,40490
+328,r328_circular.png,gitqa,gitqa_164,1234,28,30,5,3,,3,cycle_backbone,0 – 4 – 25 – 22 – 2,premature,40490
+329,r329_circular.png,generated,164,gen-164,11,13,3,3,7,10,node_id,0 – 10 – 9,adjacent,40490
+330,r330_circular.png,gitqa,gitqa_165,1235,28,31,4,4,,122,node_id,0 – 3 – 12 – 1,premature,40490
+331,r331_circular.png,generated,165,gen-165,11,11,4,1,4,8,node_id,0 – 2 – 10 – 1,premature,40490
+332,r332_circular.png,gitqa,gitqa_166,1236,28,30,3,3,,111,node_id,0 – 17 – 1,adjacent,40490
+333,r333_circular.png,generated,166,gen-166,19,20,5,2,6,34,node_id,10 – 17 – 4 – 9 – 3,premature,40490
+334,r334_circular.png,gitqa,gitqa_167,1237,28,30,3,3,,124,node_id,0 – 2 – 1,adjacent,40490
+335,r335_circular.png,generated,167,gen-167,21,24,6,4,11,46,node_id,0 – 16 – 8 – 20 – 19 – 4,premature,40490
+336,r336_circular.png,gitqa,gitqa_168,1238,28,30,3,3,,86,node_id,0 – 15 – 3,adjacent,40490
+337,r337_circular.png,generated,168,gen-168,18,19,3,2,8,36,node_id,10 – 6 – 4,adjacent,40490
+338,r338_circular.png,gitqa,gitqa_169,1239,28,31,4,4,,145,node_id,0 – 4 – 24 – 3,premature,40490
+339,r339_circular.png,generated,169,gen-169,15,15,4,1,4,37,node_id,6 – 10 – 3 – 7,premature,40490
+340,r340_circular.png,gitqa,gitqa_170,1240,28,29,3,2,,0,cycle_backbone,0 – 6 – 2,adjacent,40490
+341,r341_circular.png,generated,170,gen-170,11,12,5,2,6,23,node_id,4 – 5 – 1 – 6 – 2,premature,40490
+342,r342_circular.png,gitqa,gitqa_171,1241,28,30,6,3,,1,cycle_backbone,0 – 17 – 27 – 25 – 4 – 2,premature,40490
+343,r343_circular.png,generated,171,gen-171,21,21,6,1,6,41,node_id,4 – 16 – 5 – 8 – 20 – 14,premature,40490
+344,r344_circular.png,gitqa,gitqa_172,1242,28,31,3,4,,127,node_id,0 – 12 – 1,adjacent,40490
+345,r345_circular.png,generated,172,gen-172,18,21,3,4,5,42,node_id,2 – 5 – 1,adjacent,40490
+346,r346_circular.png,gitqa,gitqa_173,1243,28,28,9,1,,119,node_id,0 – 3 – 8 – 7 – 27 – 21 – 2 – 19 – 1,premature,40490
+347,r347_circular.png,generated,173,gen-173,21,22,4,2,10,44,node_id,4 – 10 – 19 – 8,premature,40490
+348,r348_circular.png,gitqa,gitqa_174,1244,28,29,5,2,,0,cycle_backbone,0 – 2 – 9 – 6 – 1,premature,40490
+349,r349_circular.png,generated,174,gen-174,11,13,5,3,6,15,node_id,0 – 10 – 5 – 9 – 1,premature,40490
+350,r350_circular.png,gitqa,gitqa_175,1245,28,28,5,1,,0,cycle_backbone,0 – 14 – 12 – 2 – 1,premature,40490
+351,r351_circular.png,generated,175,gen-175,17,19,6,3,10,27,node_id,0 – 11 – 14 – 5 – 4 – 1,premature,40490
+352,r352_circular.png,gitqa,gitqa_176,1246,28,31,3,4,,91,node_id,0 – 4 – 1,adjacent,40490
+353,r353_circular.png,generated,176,gen-176,14,16,3,3,4,41,node_id,0 – 7 – 1,adjacent,40490
+354,r354_circular.png,gitqa,gitqa_177,1247,28,28,8,1,,101,node_id,0 – 27 – 23 – 20 – 3 – 12 – 11 – 1,premature,40490
+355,r355_circular.png,generated,177,gen-177,15,18,4,4,9,33,node_id,7 – 12 – 8 – 5,premature,40490
+356,r356_circular.png,gitqa,gitqa_178,1248,28,28,3,1,,0,cycle_backbone,0 – 6 – 2,adjacent,40490
+357,r357_circular.png,generated,178,gen-178,22,23,5,2,7,44,node_id,1 – 19 – 4 – 10 – 8,premature,40490
+358,r358_circular.png,gitqa,gitqa_179,1249,28,31,5,4,,9,cycle_backbone,0 – 3 – 18 – 9 – 1,premature,40490
+359,r359_circular.png,generated,179,gen-179,21,21,6,1,6,22,node_id,20 – 15 – 14 – 10 – 6 – 7,premature,40490
+360,r360_circular.png,gitqa,gitqa_180,1250,28,31,3,4,,128,node_id,0 – 2 – 1,adjacent,40490
+361,r361_circular.png,generated,180,gen-180,17,17,3,1,3,56,node_id,5 – 12 – 9,adjacent,40490
+362,r362_circular.png,gitqa,gitqa_181,1251,28,31,3,4,,2,cycle_backbone,0 – 11 – 2,adjacent,40490
+363,r363_circular.png,generated,181,gen-181,18,18,4,1,4,29,node_id,0 – 16 – 12 – 15,premature,40490
+364,r364_circular.png,gitqa,gitqa_182,1252,28,28,6,1,,106,node_id,0 – 24 – 4 – 26 – 16 – 1,premature,40490
+365,r365_circular.png,generated,182,gen-182,22,24,5,3,14,36,node_id,13 – 5 – 20 – 3 – 2,premature,40490
+366,r366_circular.png,gitqa,gitqa_183,1253,28,28,9,1,,56,node_id,0 – 5 – 25 – 24 – 21 – 16 – 10 – 3 – 1,premature,40490
+367,r367_circular.png,generated,183,gen-183,18,21,6,4,10,34,node_id,0 – 5 – 7 – 13 – 17 – 2,premature,40490
+368,r368_circular.png,gitqa,gitqa_184,1254,28,29,9,2,,3,cycle_backbone,0 – 2 – 12 – 20 – 13 – 3 – 18 – 9 – 1,premature,40490
+369,r369_circular.png,generated,184,gen-184,18,20,3,3,9,61,node_id,14 – 16 – 12,adjacent,40490
+370,r370_circular.png,gitqa,gitqa_185,1255,28,28,11,1,,89,node_id,0 – 10 – 9 – 7 – 11 – 23 – 26 – 15 – 12 – 16 – 1,premature,40490
+371,r371_circular.png,generated,185,gen-185,20,20,4,1,4,29,node_id,0 – 2 – 15 – 1,premature,40490
+372,r372_circular.png,gitqa,gitqa_186,1256,28,29,7,2,,3,cycle_backbone,0 – 2 – 26 – 15 – 12 – 16 – 1,premature,40490
+373,r373_circular.png,generated,186,gen-186,13,14,5,2,7,17,node_id,2 – 9 – 7 – 3 – 1,premature,40490
+374,r374_circular.png,gitqa,gitqa_187,1257,28,31,3,4,,140,node_id,0 – 9 – 3,adjacent,40490
+375,r375_circular.png,generated,187,gen-187,12,14,6,3,10,30,node_id,0 – 11 – 2 – 7 – 3 – 4,premature,40490
+376,r376_circular.png,gitqa,gitqa_188,1258,28,30,4,3,,1,cycle_backbone,0 – 20 – 23 – 2,premature,40490
+377,r377_circular.png,generated,188,gen-188,12,12,3,1,3,20,node_id,3 – 9 – 4,adjacent,40490
+378,r378_circular.png,gitqa,gitqa_189,1259,28,31,3,4,,121,node_id,0 – 4 – 1,adjacent,40490
+379,r379_circular.png,generated,189,gen-189,22,24,4,3,8,46,node_id,1 – 19 – 5 – 6,premature,40490
+380,r380_circular.png,gitqa,gitqa_190,1260,28,31,3,4,,5,cycle_backbone,0 – 3 – 1,adjacent,40490
+381,r381_circular.png,generated,190,gen-190,18,18,5,1,5,50,node_id,7 – 4 – 9 – 1 – 3,premature,40490
+382,r382_circular.png,gitqa,gitqa_191,1261,28,30,3,3,,123,node_id,0 – 27 – 3,adjacent,40490
+383,r383_circular.png,generated,191,gen-191,16,19,6,4,11,45,node_id,0 – 15 – 13 – 3 – 6 – 1,premature,40490
+384,r384_circular.png,gitqa,gitqa_192,1262,28,31,4,4,,104,node_id,0 – 13 – 7 – 2,premature,40490
+385,r385_circular.png,generated,192,gen-192,11,14,3,4,8,6,node_id,8 – 2 – 1,adjacent,40490
+386,r386_circular.png,gitqa,gitqa_193,1263,28,31,3,4,,137,node_id,0 – 20 – 1,adjacent,40490
+387,r387_circular.png,generated,193,gen-193,11,13,4,3,7,10,node_id,3 – 8 – 2 – 1,premature,40490
+388,r388_circular.png,gitqa,gitqa_194,1264,28,30,4,3,,125,node_id,0 – 4 – 17 – 2,premature,40490
+389,r389_circular.png,generated,194,gen-194,16,19,5,4,10,44,node_id,10 – 3 – 7 – 2 – 1,premature,40490
+390,r390_circular.png,gitqa,gitqa_195,1265,28,28,5,1,,108,node_id,0 – 14 – 12 – 17 – 1,premature,40490
+391,r391_circular.png,generated,195,gen-195,13,15,6,3,10,22,node_id,0 – 7 – 12 – 8 – 4 – 5,premature,40490
+392,r392_circular.png,gitqa,gitqa_196,1266,28,28,6,1,,123,node_id,0 – 6 – 19 – 4 – 3 – 1,premature,40490
+393,r393_circular.png,generated,196,gen-196,19,19,3,1,3,54,node_id,3 – 11 – 7,adjacent,40490
+394,r394_circular.png,gitqa,gitqa_197,1267,28,30,3,3,,110,node_id,0 – 18 – 3,adjacent,40490
+395,r395_circular.png,generated,197,gen-197,21,22,4,2,8,50,node_id,3 – 16 – 18 – 9,premature,40490
+396,r396_circular.png,gitqa,gitqa_198,1268,28,28,5,1,,141,node_id,0 – 16 – 23 – 4 – 1,premature,40490
+397,r397_circular.png,generated,198,gen-198,13,15,5,3,10,23,node_id,0 – 12 – 8 – 4 – 6,premature,40490
+398,r398_circular.png,gitqa,gitqa_199,1269,28,29,4,2,,0,cycle_backbone,0 – 2 – 4 – 1,premature,40490
+399,r399_circular.png,generated,199,gen-199,11,11,6,1,6,13,node_id,4 – 9 – 8 – 2 – 3 – 7,premature,40490
+400,r400_circular.png,gitqa,gitqa_200,1270,28,29,5,2,,0,cycle_backbone,0 – 2 – 7 – 8 – 1,premature,40590
+401,r401_circular.png,generated,200,gen-200,14,15,3,2,7,36,node_id,0 – 8 – 3,adjacent,40590
+402,r402_circular.png,gitqa,gitqa_201,1271,28,28,6,1,,123,node_id,0 – 10 – 2 – 17 – 13 – 1,premature,40590
+403,r403_circular.png,generated,201,gen-201,15,18,4,4,10,51,node_id,0 – 4 – 1 – 3,premature,40590
+404,r404_circular.png,gitqa,gitqa_202,1272,28,31,3,4,,89,node_id,0 – 10 – 2,adjacent,40590
+405,r405_circular.png,generated,202,gen-202,12,12,5,1,5,14,node_id,0 – 4 – 6 – 10 – 1,premature,40590
+406,r406_circular.png,gitqa,gitqa_203,1273,28,29,4,2,,130,node_id,0 – 8 – 15 – 2,premature,40590
+407,r407_circular.png,generated,203,gen-203,22,24,6,3,10,44,node_id,4 – 18 – 10 – 12 – 13 – 2,premature,40590
+408,r408_circular.png,gitqa,gitqa_204,1274,28,29,4,2,,3,cycle_backbone,0 – 15 – 6 – 1,premature,40590
+409,r409_circular.png,generated,204,gen-204,12,14,3,3,5,22,node_id,1 – 11 – 5,adjacent,40590
+410,r410_circular.png,gitqa,gitqa_205,1275,28,28,6,1,,131,node_id,0 – 16 – 14 – 27 – 15 – 1,premature,40590
+411,r411_circular.png,generated,205,gen-205,22,22,4,1,4,43,node_id,20 – 8 – 5 – 7,premature,40590
+412,r412_circular.png,gitqa,gitqa_206,1276,28,31,4,4,,132,node_id,0 – 4 – 7 – 2,premature,40590
+413,r413_circular.png,generated,206,gen-206,14,14,5,1,5,20,node_id,0 – 6 – 13 – 5 – 2,premature,40590
+414,r414_circular.png,gitqa,gitqa_207,1277,28,30,3,3,,0,cycle_backbone,0 – 26 – 1,adjacent,40590
+415,r415_circular.png,generated,207,gen-207,19,21,6,3,11,32,node_id,1 – 17 – 12 – 13 – 2 – 3,premature,40590
+416,r416_circular.png,gitqa,gitqa_208,1278,28,31,3,4,,129,node_id,0 – 4 – 1,adjacent,40590
+417,r417_circular.png,generated,208,gen-208,13,16,3,4,6,22,node_id,2 – 9 – 4,adjacent,40590
+418,r418_circular.png,gitqa,gitqa_209,1279,28,28,3,1,,94,node_id,0 – 26 – 1,adjacent,40590
+419,r419_circular.png,generated,209,gen-209,21,21,4,1,4,48,node_id,0 – 3 – 15 – 2,premature,40590
+420,r420_circular.png,gitqa,gitqa_210,1280,28,30,5,3,,3,cycle_backbone,0 – 3 – 18 – 9 – 1,premature,40590
+421,r421_circular.png,generated,210,gen-210,15,17,5,3,9,41,node_id,0 – 5 – 8 – 14 – 3,premature,40590
+422,r422_circular.png,gitqa,gitqa_211,1281,28,29,5,2,,0,cycle_backbone,0 – 2 – 9 – 6 – 1,premature,40590
+423,r423_circular.png,generated,211,gen-211,20,20,6,1,6,54,node_id,12 – 9 – 10 – 4 – 19 – 8,premature,40590
+424,r424_circular.png,gitqa,gitqa_212,1282,28,28,6,1,,123,node_id,0 – 6 – 19 – 4 – 3 – 1,premature,40590
+425,r425_circular.png,generated,212,gen-212,13,13,3,1,3,27,node_id,9 – 11 – 5,adjacent,40590
+426,r426_circular.png,gitqa,gitqa_213,1283,28,29,6,2,,88,node_id,0 – 12 – 17 – 16 – 7 – 1,premature,40590
+427,r427_circular.png,generated,213,gen-213,22,23,4,2,5,35,node_id,7 – 17 – 12 – 5,premature,40590
+428,r428_circular.png,gitqa,gitqa_214,1284,28,30,3,3,,125,node_id,0 – 3 – 1,adjacent,40590
+429,r429_circular.png,generated,214,gen-214,16,18,5,3,8,53,node_id,9 – 5 – 15 – 12 – 3,premature,40590
+430,r430_circular.png,gitqa,gitqa_215,1285,28,30,4,3,,99,node_id,0 – 4 – 21 – 3,premature,40590
+431,r431_circular.png,generated,215,gen-215,21,22,6,2,8,32,node_id,16 – 14 – 10 – 1 – 20 – 2,premature,40590
+432,r432_circular.png,gitqa,gitqa_216,1286,28,29,4,2,,1,cycle_backbone,0 – 13 – 8 – 1,premature,40590
+433,r433_circular.png,generated,216,gen-216,19,20,3,2,8,57,node_id,9 – 6 – 1,adjacent,40590
+434,r434_circular.png,gitqa,gitqa_217,1287,28,30,3,3,,109,node_id,0 – 3 – 2,adjacent,40590
+435,r435_circular.png,generated,217,gen-217,20,20,4,1,4,52,node_id,3 – 16 – 12 – 15,premature,40590
+436,r436_circular.png,gitqa,gitqa_218,1288,28,30,5,3,,166,node_id,0 – 19 – 6 – 20 – 2,premature,40590
+437,r437_circular.png,generated,218,gen-218,13,14,5,2,6,20,node_id,0 – 7 – 12 – 10 – 1,premature,40590
+438,r438_circular.png,gitqa,gitqa_219,1289,28,31,5,4,,6,cycle_backbone,0 – 3 – 18 – 9 – 1,premature,40590
+439,r439_circular.png,generated,219,gen-219,17,17,6,1,6,20,node_id,10 – 12 – 16 – 15 – 1 – 3,premature,40590
+440,r440_circular.png,gitqa,gitqa_220,1290,28,28,9,1,,0,cycle_backbone,0 – 15 – 25 – 17 – 9 – 11 – 4 – 13 – 1,premature,40590
+441,r441_circular.png,generated,220,gen-220,12,14,3,3,4,29,node_id,0 – 7 – 6,adjacent,40590
+442,r442_circular.png,gitqa,gitqa_221,1291,28,28,6,1,,123,node_id,0 – 10 – 2 – 17 – 13 – 1,premature,40590
+443,r443_circular.png,generated,221,gen-221,12,13,4,2,7,17,node_id,3 – 9 – 11 – 2,premature,40590
+444,r444_circular.png,gitqa,gitqa_222,1292,28,31,3,4,,1,cycle_backbone,0 – 2 – 1,adjacent,40590
+445,r445_circular.png,generated,222,gen-222,14,15,5,2,6,23,node_id,0 – 13 – 4 – 2 – 9,premature,40590
+446,r446_circular.png,gitqa,gitqa_223,1293,28,29,4,2,,1,cycle_backbone,0 – 13 – 8 – 1,premature,40590
+447,r447_circular.png,generated,223,gen-223,14,16,6,3,10,38,node_id,0 – 13 – 4 – 1 – 3 – 7,premature,40590
+448,r448_circular.png,gitqa,gitqa_224,1294,28,29,3,2,,0,cycle_backbone,0 – 26 – 1,adjacent,40590
+449,r449_circular.png,generated,224,gen-224,19,19,3,1,3,38,node_id,2 – 10 – 7,adjacent,40590
+450,r450_circular.png,gitqa,gitqa_225,1295,28,28,5,1,,108,node_id,0 – 14 – 12 – 17 – 1,premature,40590
+451,r451_circular.png,generated,225,gen-225,13,15,4,3,6,30,node_id,0 – 10 – 7 – 4,premature,40590
+452,r452_circular.png,gitqa,gitqa_226,1296,28,28,6,1,,147,node_id,0 – 21 – 14 – 11 – 20 – 1,premature,40590
+453,r453_circular.png,generated,226,gen-226,19,20,5,2,6,50,node_id,0 – 7 – 1 – 13 – 6,premature,40590
+454,r454_circular.png,gitqa,gitqa_227,1297,28,30,5,3,,3,cycle_backbone,0 – 3 – 18 – 9 – 1,premature,40590
+455,r455_circular.png,generated,227,gen-227,12,12,6,1,6,17,node_id,3 – 4 – 5 – 8 – 9 – 1,premature,40590
+456,r456_circular.png,gitqa,gitqa_228,1298,28,30,3,3,,0,cycle_backbone,0 – 4 – 3,adjacent,40590
+457,r457_circular.png,generated,228,gen-228,11,14,3,4,6,29,node_id,2 – 10 – 4,adjacent,40590
+458,r458_circular.png,gitqa,gitqa_229,1299,28,31,4,4,,131,node_id,0 – 4 – 17 – 2,premature,40590
+459,r459_circular.png,generated,229,gen-229,13,14,4,2,5,22,node_id,3 – 12 – 8 – 7,premature,40590
+460,r460_circular.png,gitqa,gitqa_230,1300,29,31,6,3,,150,node_id,0 – 2 – 12 – 25 – 8 – 1,premature,40590
+461,r461_circular.png,generated,230,gen-230,20,21,5,2,9,30,node_id,14 – 18 – 6 – 9 – 13,premature,40590
+462,r462_circular.png,gitqa,gitqa_231,1301,29,31,3,3,,2,cycle_backbone,0 – 2 – 1,adjacent,40590
+463,r463_circular.png,generated,231,gen-231,20,22,6,3,11,53,node_id,7 – 18 – 5 – 2 – 12 – 3,premature,40590
+464,r464_circular.png,gitqa,gitqa_232,1302,29,29,10,1,,0,cycle_backbone,0 – 2 – 5 – 12 – 6 – 15 – 26 – 14 – 18 – 1,premature,40590
+465,r465_circular.png,generated,232,gen-232,14,17,3,4,10,31,node_id,12 – 13 – 2,adjacent,40590
+466,r466_circular.png,gitqa,gitqa_233,1303,29,29,5,1,,0,cycle_backbone,0 – 6 – 23 – 3 – 1,premature,40590
+467,r467_circular.png,generated,233,gen-233,22,22,4,1,4,42,node_id,8 – 13 – 18 – 9,premature,40590
+468,r468_circular.png,gitqa,gitqa_234,1304,29,30,5,2,,151,node_id,0 – 2 – 6 – 19 – 1,premature,40590
+469,r469_circular.png,generated,234,gen-234,20,22,5,3,7,48,node_id,1 – 9 – 10 – 12 – 6,premature,40590
+470,r470_circular.png,gitqa,gitqa_235,1305,29,31,4,3,,121,node_id,0 – 2 – 22 – 1,premature,40590
+471,r471_circular.png,generated,235,gen-235,21,22,6,2,7,42,node_id,1 – 9 – 18 – 16 – 11 – 3,premature,40590
+472,r472_circular.png,gitqa,gitqa_236,1306,29,29,4,1,,120,node_id,0 – 17 – 6 – 2,premature,40590
+473,r473_circular.png,generated,236,gen-236,15,17,3,3,7,33,node_id,3 – 14 – 4,adjacent,40590
+474,r474_circular.png,gitqa,gitqa_237,1307,29,30,7,2,,3,cycle_backbone,0 – 2 – 26 – 15 – 12 – 16 – 1,premature,40590
+475,r475_circular.png,generated,237,gen-237,21,24,4,4,11,53,node_id,14 – 9 – 13 – 1,premature,40590
+476,r476_circular.png,gitqa,gitqa_238,1308,29,32,3,4,,173,node_id,0 – 9 – 3,adjacent,40590
+477,r477_circular.png,generated,238,gen-238,16,18,5,3,7,27,node_id,0 – 9 – 7 – 8 – 1,premature,40590
+478,r478_circular.png,gitqa,gitqa_239,1309,29,32,3,4,,4,cycle_backbone,0 – 27 – 3,adjacent,40590
+479,r479_circular.png,generated,239,gen-239,18,20,6,3,9,47,node_id,0 – 14 – 11 – 15 – 2 – 8,premature,40590
+480,r480_circular.png,gitqa,gitqa_240,1310,29,32,3,4,,115,node_id,0 – 19 – 2,adjacent,40590
+481,r481_circular.png,generated,240,gen-240,13,15,3,3,7,32,node_id,6 – 11 – 7,adjacent,40590
+482,r482_circular.png,gitqa,gitqa_241,1311,29,30,6,2,,5,cycle_backbone,0 – 2 – 4 – 20 – 12 – 1,premature,40590
+483,r483_circular.png,generated,241,gen-241,12,13,4,2,4,19,node_id,0 – 6 – 3 – 1,premature,40590
+484,r484_circular.png,gitqa,gitqa_242,1312,29,30,4,2,,144,node_id,0 – 4 – 17 – 2,premature,40590
+485,r485_circular.png,generated,242,gen-242,12,12,5,1,5,16,node_id,8 – 11 – 10 – 9 – 6,premature,40590
+486,r486_circular.png,gitqa,gitqa_243,1313,29,32,3,4,,131,node_id,0 – 23 – 1,adjacent,40590
+487,r487_circular.png,generated,243,gen-243,14,17,6,4,10,14,node_id,0 – 12 – 10 – 1 – 2 – 4,premature,40590
+488,r488_circular.png,gitqa,gitqa_244,1314,29,30,6,2,,0,cycle_backbone,0 – 6 – 14 – 13 – 27 – 2,premature,40590
+489,r489_circular.png,generated,244,gen-244,19,19,3,1,3,36,node_id,13 – 14 – 8,adjacent,40590
+490,r490_circular.png,gitqa,gitqa_245,1315,29,29,6,1,,165,node_id,0 – 13 – 4 – 21 – 8 – 1,premature,40590
+491,r491_circular.png,generated,245,gen-245,19,20,4,2,7,49,node_id,0 – 16 – 6 – 1,premature,40590
+492,r492_circular.png,gitqa,gitqa_246,1316,29,32,3,4,,2,cycle_backbone,0 – 3 – 1,adjacent,40590
+493,r493_circular.png,generated,246,gen-246,21,21,5,1,5,38,node_id,1 – 18 – 20 – 12 – 6,premature,40590
+494,r494_circular.png,gitqa,gitqa_247,1317,29,30,5,2,,109,node_id,0 – 2 – 10 – 12 – 1,premature,40590
+495,r495_circular.png,generated,247,gen-247,21,23,6,3,11,48,node_id,6 – 16 – 13 – 15 – 20 – 5,premature,40590
+496,r496_circular.png,gitqa,gitqa_248,1318,29,29,3,1,,116,node_id,0 – 7 – 1,adjacent,40590
+497,r497_circular.png,generated,248,gen-248,13,15,3,3,7,31,node_id,1 – 11 – 10,adjacent,40590
+498,r498_circular.png,gitqa,gitqa_249,1319,29,32,3,4,,4,cycle_backbone,0 – 24 – 4,adjacent,40590
+499,r499_circular.png,generated,249,gen-249,11,12,4,2,5,21,node_id,3 – 5 – 4 – 1,premature,40590
